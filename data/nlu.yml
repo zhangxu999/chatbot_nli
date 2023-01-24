@@ -1,0 +1,20 @@
+nlu:
+- intent: ask_staff
+  examples: |
+    - tell me something about [Neo](name)?
+    - who is [Wanner](name)?
+    - Do you know Mr [Leo](name)?
+    - I am looking for [Jorge](name)?
+    - [Neo](name).
+
+- intent: ask_group
+  examples: |
+    - I want to know something about AI&ML: [Artificial Intelligence and Machine Learning group](group)
+    - Can you introduce the AI lab for me?
+    - I want to know who is at [Cognitive Media Technologies Group](group).
+
+- intent: ask_room_address
+  examples: |
+    - who is in [51110](room)?
+    - tell me something about [51110](room).
+    - who is in [52110](room)?
