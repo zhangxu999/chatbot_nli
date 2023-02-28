@@ -2,8 +2,8 @@ nlu:
 - intent: ask_staff
   examples: |
     - tell me something about [Neo](name)?
-    - who is [Wanner](name)?
-    - Do you know Mr [Leo](name)?
+    - who is [Mary](name)?
+    - Do you know Mr [John](name)?
     - I am looking for [Jorge](name)?
     - [Neo](name).
 
