@@ -11,15 +11,17 @@ from typing import Any, Text, Dict, List
 #
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-
+from sklearn.metrics.pairwise import cosine_similarity
 
 import pandas as pd
+from transformers import AutoTokenizer, BlenderbotSmallForConditionalGeneration
+
 from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 entity_df = pd.read_excel("../project/listado.xlsx")
 entity_df = entity_df[pd.notnull(entity_df['name'])]
-entity_df['name'] = entity_df['name'].str.lower()
+entity_df['name'] = entity_df['name'].apply(lambda x:x.lower().strip())
 def split_name(full_name):
     names = full_name.replace(',',' ').split()
     names = [n.strip() for n in names]
@@ -27,13 +29,19 @@ def split_name(full_name):
     return names
 entity_df['full_name'] = entity_df['name'].apply(split_name)
 
+def group_pre(group):
+    return group.replace("\n",' ').lower().strip()
+    
+entity_df['group'] =entity_df['group'].apply(group_pre)
+entity_df['office'] =entity_df['office'].apply(lambda x:str(x))
+
 
 names = [name.lower() for name in entity_df['name'].unique().tolist()]
 groups = [g.lower() for g in entity_df['group'].unique().tolist()]
-entities =  names + groups
+embed_entities =  groups
 
 #Sentences are encoded by calling model.encode()
-embeddings = model.encode(entities)
+embeddings = model.encode(embed_entities)
 
 
 def get_row_by_item(col, value):
@@ -60,6 +68,7 @@ class ActionAskName(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]
     ) -> List[Dict]:
+        value = None
         entities = tracker.latest_message['entities']
         for entity in entities:
             if entity['entity'] == 'name':
@@ -95,25 +104,28 @@ class ActionAskGroup(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]
     ) -> List[Dict]:
+        print("-------------in group")
         entities = tracker.latest_message['entities']
         for entity in entities:
             if entity['entity'] == 'group':
                 value = entity['value']
+                search_words = [value]
+                print(search_words)
                 break
 
-                search_words = [value]
         search_embedding = model.encode(search_words)
         # 计算向量之间的余弦相似度
         similarity = cosine_similarity(search_embedding, embeddings)
         print(similarity.shape)
-        ranked_entities = sorted(list(zip(similarity.reshape(-1),entities)),reverse=True)
+        ranked_entities = sorted(list(zip(similarity.reshape(-1),embed_entities)),reverse=True)
+        print(ranked_entities)
         score, answer = ranked_entities[0]
 
 
         staff_number = entity_df[entity_df.group==answer].shape[0]
 
-        some_staffs = ''.join([n.lower() for n in entity_df[entity_df.group\
-        =='WSSC: Web Science and Social Computing'].iloc[:3]['name'].values.tolist()])
+        some_staffs = ', '.join([n.lower() for n in entity_df[entity_df.group\
+        ==answer].iloc[:10]['name'].values.tolist()])
 
 
         response = f" the group {answer} have {staff_number} members, some members of this group are {some_staffs}"
@@ -127,8 +139,9 @@ class ActionAskOffice(Action):
     def __init__(self):
         pass
 
+
     def name(self) -> Text:
-        return "action_ask_office"
+        return "action_ask_room"
 
 
     def run(
@@ -138,15 +151,45 @@ class ActionAskOffice(Action):
             domain: Dict[Text, Any]
     ) -> List[Dict]:
         entities = tracker.latest_message['entities']
+        value = None
         for entity in entities:
-            if entity['entity'] == 'office':
+            if entity['entity'] == 'room':
                 value = entity['value']
                 break
         
         name,group,office = get_row_by_item('office',value)
+        if name:
+            response = f" the office {office} is belong to {name},  he is a member of {group}"
+        else:
+            response = f" there is no office name {office}"
 
-        response = f" the office {office} is belong to {name},  he is a member of {group}"
+        dispatcher.utter_message(text=response)
 
-        dispatcher.utter_message(text=template)
+        return []
+
+
+class ActionChitchat(Action):
+
+    def __init__(self):
+        mname = "facebook/blenderbot_small-90M"
+        self.model = BlenderbotSmallForConditionalGeneration.from_pretrained(mname)
+        self.tokenizer = AutoTokenizer.from_pretrained(mname)
+
+
+    def name(self) -> Text:
+        return "action_chitchat"
+
+
+    def run(
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]
+    ) -> List[Dict]:
+        UTTERANCE = tracker.latest_message['text']
+        inputs = self.tokenizer([UTTERANCE], return_tensors="pt")
+        reply_ids = self.model.generate(**inputs,do_sample=True)
+        response = self.tokenizer.batch_decode(reply_ids, skip_special_tokens=True,)[0]
+        dispatcher.utter_message(text=response)
 
         return []

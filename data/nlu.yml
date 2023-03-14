@@ -1,20 +1,1622 @@
 nlu:
 - intent: ask_staff
   examples: |
-    - tell me something about [Neo](name)?
-    - who is [Mary](name)?
-    - Do you know Mr [John](name)?
-    - I am looking for [Jorge](name)?
-    - [Neo](name).
+    - What's there to know about [josé](name)? Can you tell me?
+    - What's there to know about [garamendi](name)? Can you tell me?
+    - I'm interested in learning about [gema](name), can you tell me more?
+    - Could you give me some information on [franquet](name), please?
+    - What can you tell me about [minz](name)?
+    - I need some details about [morteza](name), can you help me out?
+    - I'd like to know more about [dalmau lloret, victor](name), could you help me out?
+    - Please tell me about [cuesta mussarra, helena](name), I'm curious.
+    - What's there to know about [doste beltran, ruben](name)? Can you tell me?
+    - What can you tell me about [wilhelmi roca, francisco jose](name), exactly?
+    - Could you provide me with some details on [garcia moreno, aracelys](name), please?
+    - What do you know about [slizovskaia](name) that you can tell me?
+    - Could you provide me with some details on [alvarez](name), please?
+    - Can you provide me with information about [martí](name)?
+    - Could you provide me with some background information on [ochugboju , angela ogbugwa](name)?
+    - Could you provide me with some background information on [fibla](name)?
+    - I want to learn about [escobosa](name), can you provide me with some information?
+    - I'm curious about [beardsley](name), can you tell me about them?
+    - I'd like to know more about [termens](name), could you help me out?
+    - What can you tell me about [eladly](name), exactly?
+    - I'm interested in learning about [minguillon campos, jesus](name), can you tell me more?
+    - I'd like to know more about [santiago](name), could you help me out?
+    - What do you know about [martin](name) that you can tell me?
+    - What can you tell me about [marichal baraibar, sebastián roberto](name), exactly?
+    - I want to learn about [leo](name), can you provide me with some information?
+    - I'm interested in learning about [matreata](name), can you tell me more?
+    - What do you know about [jimenez garcia, vanessa](name) that you can tell me?
+    - I'd like to know more about [rauschenberger](name), can you provide that?
+    - What do you know about [santana ramires, antónio filipe](name) that you can tell me?
+    - Can you give me some background information on [sukno](name)?
+    - Could you provide me with some background information on [damien](name)?
+    - Could you give me some information on [patricia](name), please?
+    - Could you give me some information on [bonada sanjaume, jordi](name), please?
+    - What can you tell me about [roca](name), exactly?
+    - Could you provide me with some details on [rafols](name), please?
+    - I'm looking for details on [ahmed](name), can you assist me?
+    - Could you give me some information on [victor](name), please?
+    - What do you know about [ramirez](name)? Can you share that with me?
+    - What do you know about [montbrió](name) that you can tell me?
+    - Please provide me with some details on [haro](name).
+    - What can you tell me about [andrzejak , ralph gregor](name)?
+    - Could you provide me with some background information on [marques](name)?
+    - Could you provide me with some background information on [ruzzene](name)?
+    - Can you provide me with some insights into [ramirez melendez, rafael](name)?
+    - Could you give me some information on [karimihaghighi , marzieh](name), please?
+    - I'm looking for details on [vanessa](name), can you assist me?
+    - I'm looking for details on [colas](name), can you assist me?
+    - I'm interested in learning about [cetin , irem](name), can you tell me more?
+    - Can you give me an overview of [lara](name), please?
+    - Please provide me with some details on [castro](name).
+    - Tell me what you know about [cecilia](name), please.
+    - I want to learn about [martorell](name), can you provide me with some information?
+    - I'd like to know more about [schaper](name), can you provide that?
+    - What's there to know about [brillas](name)? Can you tell me?
+    - Can you provide me with information about [bart](name)?
+    - What are some interesting facts about [gonzalez suarez, ana](name) that you can share?
+    - I want to learn about [suarez](name), can you provide me with some information?
+    - Please provide me with some details on [wanner , leo](name).
+    - Can you provide me with information about [diana](name)?
+    - I need some details about [bogdanov](name), can you help me out?
+    - Tell me something I might not know about [nikbakht](name).
+    - Can you give me some background information on [batuhan](name)?
+    - Could you tell me more about [sheang](name), please?
+    - I want to learn more about [baeza](name), can you help me with that?
+    - Can you give me an overview of [barrachina](name), please?
+    - Please provide me with some details on [ceresa , mario](name).
+    - I want to learn about [ventayol](name), can you provide me with some information?
+    - I'd like to know more about [serra casals, francesc xavier](name), could you help me out?
+    - I need some details about [karimihaghighi](name), can you help me out?
+    - Can you provide me with information about [font](name)?
+    - I'd like to know more about [elizalde](name), can you provide that?
+    - What are some interesting facts about [montiel](name) that you can share?
+    - I'd like to know more about [raad](name), can you provide that?
+    - Can you tell me about [peig olive, enric](name) and what they do?
+    - I'd like to know more about [campos](name), could you help me out?
+    - I'm looking for details on [sanchez fibla, marti](name), can you assist me?
+    - Can you provide me with information about [estivill castro, vladimir](name)?
+    - Can you give me an overview of [sousa](name), please?
+    - What can you tell me about [albo](name), exactly?
+    - Can you provide me with information about [cetin](name)?
+    - Could you share some information with me about [gloria](name)?
+    - I am looking for details on [lewin](name), can you assist me?
+    - Can you give me an overview of [ermagan](name), please?
+    - I'm curious about [adame](name), can you tell me about them?
+    - I want to learn more about [horacio](name), can you help me with that?
+    - I want to learn more about [piella](name), can you help me with that?
+    - I'm curious about [serrano](name), can you tell me about them?
+    - What can you tell me about [santos](name), exactly?
+    - Please tell me about [olga](name), I'm curious.
+    - Tell me what you know about [fonseca](name), please.
+    - I'd like to know more about [barbieri](name), can you provide that?
+    - Could you give me some information on [slizovskaia , olga](name), please?
+    - I'd like to know more about [baseer](name), can you provide that?
+    - Can you tell me about [vamvakousis](name) and what they do?
+    - What's there to know about [faridi](name)? Can you tell me?
+    - Can you provide me with some insights into [jimenez sanchez, amelia](name)?
+    - Could you share some information with me about [brillas rosell, maria montserrat](name)?
+    - I'm looking for details on [furkan](name), can you assist me?
+    - I'd like to know more about [serra julia, joan](name), can you provide that?
+    - Can you tell me about [aragon asenjo, pablo](name) and what they do?
+    - I'd like to know more about [oscar](name), could you help me out?
+    - What are some interesting facts about [alexander](name) that you can share?
+    - Can you provide me with some insights into [heil](name)?
+    - I'm looking for details on [emilia](name), can you assist me?
+    - I'm looking for details on [trevor](name), can you assist me?
+    - I'm curious to know about [morales](name), can you share some information?
+    - Could you provide me with some background information on [colombaro](name)?
+    - Could you tell me more about [ten](name), please?
+    - I want to learn more about [ramirez cifuentes, diana michelle](name), can you help me with that?
+    - Please provide me with some details on [wills](name).
+    - What are some interesting facts about [carrera](name) that you can share?
+    - Please provide me with some details on [garamendi bragado, juan francisco](name).
+    - I'd like to know more about [vujovic , milica](name), could you help me out?
+    - Could you tell me more about [zabaleta](name), please?
+    - What do you know about [garrido franquet, cristina](name) that you can tell me?
+    - Can you give me some background information on [giraldo mendez, sergio iván](name)?
+    - I need some details about [arbues](name), can you help me out?
+    - Could you share some information with me about [alcaine otin, alejandro](name)?
+    - Could you provide me with some details on [umbert](name), please?
+    - Could you share some information with me about [mireia](name)?
+    - Tell me something I might not know about [casals](name).
+    - Can you provide me with information about [pous andres, rafael](name)?
+    - I'm looking for details on [garcia](name), can you assist me?
+    - Tell me what you know about [jorda puig, sergi](name), please.
+    - Can you provide me with information about [kadandale](name)?
+    - Could you tell me more about [enrique](name), please?
+    - What do you know about [yagüe](name)? Can you share that with me?
+    - I'd like to know more about [demirel](name), could you help me out?
+    - Could you share some information with me about [butti , silvia](name)?
+    - Please tell me about [mateo](name), I'm curious.
+    - Tell me what you know about [baeza yates, ricardo alberto](name), please.
+    - What can you tell me about [julia](name)?
+    - Could you give me some information on [porter](name), please?
+    - Can you provide me with information about [judith](name)?
+    - What can you tell me about [baseer , irum](name)?
+    - I want to learn about [yates](name), can you provide me with some information?
+    - I'd like to know more about [franzoni , federico](name), could you help me out?
+    - I'm curious about [iuliia](name), can you tell me about them?
+    - Can you give me an overview of [cuesta](name), please?
+    - I'd like to know more about [irem](name), could you help me out?
+    - What do you know about [hamdi](name) that you can tell me?
+    - Could you tell me more about [clotet sule, joana](name), please?
+    - What do you know about [estivill](name)? Can you share that with me?
+    - I am looking for details on [filipe](name), can you assist me?
+    - Please tell me about [castillo ocaranza, carlos alberto alejandro](name), I'm curious.
+    - Can you provide me with some insights into [saad](name)?
+    - Can you give me an overview of [rasouligandomani , morteza](name), please?
+    - What can you tell me about [josep](name)?
+    - Can you tell me about [montesinos garcia, juan felipe](name) and what they do?
+    - Can you provide me with information about [butti](name)?
+    - Can you give me an overview of [gregor](name), please?
+    - Tell me something I might not know about [vamvakousis , zacharias](name).
+    - Tell me something I might not know about [fonseca montero, eduardo david](name).
+    - What are some interesting facts about [jens](name) that you can share?
+    - I'm interested in learning about [bertalmio barate, marcelo josé](name), can you tell me more?
+    - Could you give me some information on [aguirre](name), please?
+    - Tell me what you know about [helena](name), please.
+    - I want to learn about [ponce](name), can you provide me with some information?
+    - Tell me what you know about [ricardo](name), please.
+    - I'm curious about [manuel](name), can you tell me about them?
+    - Please tell me about [barrachina muñoz, sergio](name), I'm curious.
+    - Could you give me some information on [jimenez perez, guillermo](name), please?
+    - Can you tell me about [gaston](name) and what they do?
+    - Could you tell me more about [xavier monte llopis](name), please?
+    - Can you give me an overview of [guardiola](name), please?
+    - Could you share some information with me about [ogbugwa](name)?
+    - Tell me what you know about [yoshimi](name), please.
+    - Can you provide me with some insights into [stewart](name)?
+    - Please provide me with some details on [campello roman, víctor manuel](name).
+    - I'd like to know more about [rezazadeh](name), could you help me out?
+    - Can you tell me about [morales muñoz, maria de araceli](name) and what they do?
+    - Can you provide me with some insights into [aracelys](name)?
+    - Can you give me some background information on [merlijn](name)?
+    - What are some interesting facts about [ishari](name) that you can share?
+    - Can you provide me with some insights into [colas alvarez, joaquim](name)?
+    - Could you tell me more about [oramas](name), please?
+    - What are some interesting facts about [bravo](name) that you can share?
+    - I am looking for details on [jesus](name), can you assist me?
+    - I'm looking for details on [hemchandra](name), can you assist me?
+    - Could you give me some information on [andrew](name), please?
+    - I'm curious about [albert](name), can you tell me about them?
+    - What are some interesting facts about [sayis , batuhan](name) that you can share?
+    - Can you provide me with information about [olive](name)?
+    - I want to learn about [salvador](name), can you provide me with some information?
+    - Could you provide me with some details on [bellalta jimenez, boris](name), please?
+    - What do you know about [fernandez lopez, adriana](name) that you can tell me?
+    - What are some interesting facts about [safrankova , jana](name) that you can share?
+    - I'd like to know more about [yesiler , mehmet furkan](name), could you help me out?
+    - I am looking for details on [campello](name), can you assist me?
+    - I'm curious to know about [albin](name), can you share some information?
+    - Please provide me with some details on [martorell dominguez, agustin](name).
+    - Can you give me some background information on [ceresa](name)?
+    - What's there to know about [lobo , jorge](name)? Can you tell me?
+    - I want to learn about [gomez gutierrez, emilia](name), can you provide me with some information?
+    - Could you share some information with me about [safrankova](name)?
+    - Please provide me with some details on [silvia](name).
+    - I'm interested in learning about [xavier](name), can you tell me more?
+    - Could you provide me with some background information on [cañon](name)?
+    - I need some details about [öktem , hamdi alp](name), can you help me out?
+    - Tell me something I might not know about [eladly , ahmed fayez saad mohamed eladly](name).
+    - What can you tell me about [carrillo](name), exactly?
+    - What can you tell me about [bas serrano, joan](name), exactly?
+    - What are some interesting facts about [bosser carenys, maria](name) that you can share?
+    - I need some details about [cheng](name), can you help me out?
+    - Could you provide me with some details on [portulas](name), please?
+    - Could you provide me with some details on [frederic](name), please?
+    - Can you give me some background information on [marta](name)?
+    - Tell me something I might not know about [simone](name).
+    - Can you give me some background information on [montells](name)?
+    - I want to learn more about [demirel , berkay](name), can you help me with that?
+    - I'm curious to know about [blat](name), can you share some information?
+    - I'd like to know more about [amarasinghe , ishari](name), could you help me out?
+    - Can you provide me with information about [maria](name)?
+    - Can you provide me with information about [pablo-miki](name)?
+    - Could you tell me more about [alcaine](name), please?
+    - Could you share some information with me about [puranik , ninad](name)?
+    - Please provide me with some details on [gergely](name).
+    - I want to learn about [dinyar](name), can you provide me with some information?
+    - What do you know about [cyriac , praveen](name)? Can you share that with me?
+    - I'm curious about [ortega](name), can you tell me about them?
+    - Please provide me with some details on [abenia](name).
+    - I'm interested in learning about [blaauw](name), can you tell me more?
+    - I'm curious to know about [lluch](name), can you share some information?
+    - Tell me something I might not know about [luis](name).
+    - What do you know about [mora](name)? Can you share that with me?
+    - Can you give me an overview of [nikbakht silab, rasoul](name), please?
+    - I'm curious about [veronica](name), can you tell me about them?
+    - What can you tell me about [rafols salvador, carla](name), exactly?
+    - Please tell me about [jorge](name), I'm curious.
+    - What can you tell me about [valls](name)?
+    - I'd like to know more about [martinez](name), could you help me out?
+    - I need some details about [sukno , federico mateo](name), can you help me out?
+    - What can you tell me about [bertalmio](name), exactly?
+    - Could you provide me with some details on [jerome](name), please?
+    - I want to learn about [ballester](name), can you provide me with some information?
+    - What can you tell me about [richter](name), exactly?
+    - I'd like to know more about [belen](name), can you provide that?
+    - I'm curious about [perera](name), can you tell me about them?
+    - What do you know about [fisas](name) that you can tell me?
+    - Could you tell me more about [rasouligandomani](name), please?
+    - Tell me what you know about [cistola , giorgia](name), please.
+    - I'd like to know more about [toledo](name), could you help me out?
+    - I'm interested in learning about [pons](name), can you tell me more?
+    - I need some details about [aguirre olcoz, javier](name), can you help me out?
+    - I'd like to know more about [doste](name), could you help me out?
+    - I'm interested in learning about [zucca , riccardo](name), can you tell me more?
+    - I'd like to know more about [anders](name), can you provide that?
+    - What do you know about [rosell](name) that you can tell me?
+    - I am looking for details on [carrasco](name), can you assist me?
+    - I'm looking for details on [kim](name), can you assist me?
+    - What are some interesting facts about [gerald](name) that you can share?
+    - Tell me what you know about [roberto](name), please.
+    - Could you provide me with some details on [borja](name), please?
+    - Could you provide me with some background information on [guillen fabregas, albert](name)?
+    - I'd like to know more about [bijnens , bart h](name), could you help me out?
+    - I am looking for details on [rozado](name), can you assist me?
+    - Please provide me with some details on [galella toledo, santiago](name).
+    - Can you give me an overview of [segura](name), please?
+    - Could you share some information with me about [saggion](name)?
+    - Tell me what you know about [nerea](name), please.
+    - What do you know about [noailly , jerome bernard](name)? Can you share that with me?
+    - I'm interested in learning about [shvets](name), can you tell me more?
+    - What can you tell me about [judit](name), exactly?
+    - I'd like to know more about [ivorra cano, antonio](name), can you provide that?
+    - Please provide me with some details on [crowell](name).
+    - I want to learn about [cisa](name), can you provide me with some information?
+    - Tell me what you know about [sergi](name), please.
+    - What can you tell me about [alp](name), exactly?
+    - Could you tell me more about [santana](name), please?
+    - What can you tell me about [venkatesh](name)?
+    - Could you give me some information on [milica](name), please?
+    - Could you give me some information on [sayis](name), please?
+    - Can you tell me about [correya , albin andrew](name) and what they do?
+    - I want to learn more about [baumgartner](name), can you help me with that?
+    - Can you give me some background information on [clotet](name)?
+    - I'd like to know more about [decky](name), could you help me out?
+    - I'd like to know more about [minguillon](name), can you provide that?
+    - Can you provide me with information about [vicente](name)?
+    - I'm interested in learning about [silva](name), can you tell me more?
+    - Tell me something I might not know about [zhu , tiange](name).
+    - I want to learn more about [marques , ricardo jorge](name), can you help me with that?
+    - What do you know about [segui](name) that you can tell me?
+    - Can you provide me with information about [mendez](name)?
+    - I am looking for details on [alastair](name), can you assist me?
+    - I am looking for details on [carlos](name), can you assist me?
+    - Can you provide me with some insights into [zaira](name)?
+    - Please tell me about [melia segui, joan antoni](name), I'm curious.
+    - I'd like to know more about [zacharias](name), could you help me out?
+    - I want to learn more about [fernandez](name), can you help me with that?
+    - Please tell me about [nunes](name), I'm curious.
+    - I am looking for details on [gomez cerda, vicente](name), can you assist me?
+    - Could you share some information with me about [enric](name)?
+    - Could you give me some information on [ghassan](name), please?
+    - What do you know about [lekadir](name)? Can you share that with me?
+    - I'm looking for details on [jimenez](name), can you assist me?
+    - I am looking for details on [sanchez](name), can you assist me?
+    - I want to learn about [olivares](name), can you provide me with some information?
+    - Please provide me with some details on [canham , trevor dalton](name).
+    - I am looking for details on [praveen](name), can you assist me?
+    - I'm curious about [moreno oliver, veronica](name), can you tell me about them?
+    - I want to learn more about [tassani](name), can you help me with that?
+    - Can you give me an overview of [marti](name), please?
+    - Tell me something I might not know about [mohit](name).
+    - I want to learn about [karim](name), can you provide me with some information?
+    - What can you tell me about [comerma montells, albert](name), exactly?
+    - Could you give me some information on [rasoul](name), please?
+    - What do you know about [ana](name) that you can tell me?
+    - Can you provide me with some insights into [bragado](name)?
+    - Can you provide me with some insights into [guaus](name)?
+    - Tell me what you know about [herrera boyer, perfecto jose](name), please.
+    - I'm looking for details on [devalle , federico](name), can you assist me?
+    - I'm looking for details on [fisas elizalde, beatriz](name), can you assist me?
+    - I'm interested in learning about [adrià](name), can you tell me more?
+    - Please tell me about [martínez](name), I'm curious.
+    - What can you tell me about [peiro](name)?
+    - I'm curious to know about [gil rodriguez, raquel](name), can you share some information?
+    - Could you provide me with some details on [alfonso](name), please?
+    - Please provide me with some details on [arsiwalla , xerxes dinyar](name).
+    - Can you tell me about [crowell , ciera](name) and what they do?
+    - Could you provide me with some background information on [guillen](name)?
+    - I'm looking for details on [devalle](name), can you assist me?
+    - I want to learn more about [ruben](name), can you help me with that?
+    - Could you provide me with some background information on [torrents](name)?
+    - I need some details about [roman](name), can you help me out?
+    - What do you know about [andres](name) that you can tell me?
+    - I'm interested in learning about [montesinos](name), can you tell me more?
+    - Can you tell me about [giulia](name) and what they do?
+    - Tell me something I might not know about [marta montiel](name).
+    - I'd like to know more about [jordi](name), could you help me out?
+    - What can you tell me about [cifuentes](name), exactly?
+    - What's there to know about [zucca](name)? Can you tell me?
+    - I'm curious about [beatriz](name), can you tell me about them?
+    - What's there to know about [saggion , horacio](name)? Can you tell me?
+    - What do you know about [angela](name) that you can tell me?
+    - Could you provide me with some background information on [mario](name)?
+    - I want to learn about [perera i bel, enric](name), can you provide me with some information?
+    - Can you provide me with some insights into [cyriac](name)?
+    - Could you give me some information on [barbieri , francesco](name), please?
+    - What are some interesting facts about [peig](name) that you can share?
+    - Can you provide me with some insights into [muñoz](name)?
+    - What do you know about [malvestio , irene](name)? Can you share that with me?
+    - Could you provide me with some details on [bas](name), please?
+    - Could you provide me with some background information on [marco](name)?
+    - Could you share some information with me about [salguero](name)?
+    - I'm looking for details on [barrena](name), can you assist me?
+    - I'm interested in learning about [de](name), can you tell me more?
+    - What are some interesting facts about [ciera](name) that you can share?
+    - I need some details about [heil , katharina](name), can you help me out?
+    - Can you give me an overview of [alonso](name), please?
+    - Can you give me an overview of [xerxes](name), please?
+    - Can you give me some background information on [servent](name)?
+    - Can you provide me with information about [monte](name)?
+    - Can you give me an overview of [lopez](name), please?
+    - Can you provide me with information about [riccardo](name)?
+    - What do you know about [latif , decky](name)? Can you share that with me?
+    - Could you provide me with some details on [pares](name), please?
+    - What can you tell me about [michelle](name), exactly?
+    - What are some interesting facts about [rey](name) that you can share?
+    - I want to learn about [nogueira](name), can you provide me with some information?
+    - What do you know about [miyares](name) that you can tell me?
+    - Could you tell me more about [sanjaume](name), please?
+    - I am looking for details on [olivares miyares, andy luis](name), can you assist me?
+    - Can you give me some background information on [farrus cabeceran, mireia](name)?
+    - Can you provide me with some insights into [gonzalez](name)?
+    - Can you give me some background information on [joana](name)?
+    - Could you tell me more about [perez carrillo, alfonso antonio](name), please?
+    - Can you provide me with some insights into [ninad](name)?
+    - Could you tell me more about [caro repetto, rafael](name), please?
+    - I am looking for details on [i](name), can you assist me?
+    - What can you tell me about [joaquim](name), exactly?
+    - What are some interesting facts about [ramires](name) that you can share?
+    - I'm curious about [pous](name), can you tell me about them?
+    - What are some interesting facts about [mussarra](name) that you can share?
+    - Could you provide me with some background information on [ballester nicolau, coloma maria](name)?
+    - I'm looking for details on [bel pereira, albert](name), can you assist me?
+    - I am looking for details on [allonsius , damien](name), can you assist me?
+    - I am looking for details on [hermann](name), can you assist me?
+    - Can you give me an overview of [rezazadeh , arezou](name), please?
+    - Could you share some information with me about [abenia polo, pascual pablo](name)?
+    - Could you provide me with some details on [jorda](name), please?
+    - Could you provide me with some background information on [polo](name)?
+    - I'm interested in learning about [porcaro , lorenzo](name), can you tell me more?
+    - What can you tell me about [guardiola garcia, marta](name)?
+    - Tell me what you know about [bogdanov , dmitry](name), please.
+    - What do you know about [baraibar](name)? Can you share that with me?
+    - Can you provide me with information about [casamayor](name)?
+    - Please tell me about [bonada](name), I'm curious.
+    - Could you provide me with some details on [oriol](name), please?
+    - I'd like to know more about [wanner](name), can you provide that?
+    - Please tell me about [villa](name), I'm curious.
+    - What are some interesting facts about [mariana](name) that you can share?
+    - What can you tell me about [jaureguizar](name)?
+    - Could you share some information with me about [ivano](name)?
+    - I want to learn about [ventayol borras, maria lourdes](name), can you provide me with some information?
+    - Could you provide me with some background information on [costa](name)?
+    - Could you provide me with some background information on [santos rodriguez, patricia](name)?
+    - What are some interesting facts about [adame vazquez, antonio](name) that you can share?
+    - I need some details about [hernandez](name), can you help me out?
+    - I am looking for details on [bravo serrano, alex](name), can you assist me?
+    - I'm interested in learning about [jose](name), can you tell me more?
+    - What can you tell me about [martinez pujol, oriol](name), exactly?
+    - Tell me what you know about [adhikari , mohit hemchandra](name), please.
+    - Can you tell me about [zabaleta razquin, itziar](name) and what they do?
+    - Could you give me some information on [philip](name), please?
+    - Can you give me some background information on [jordina](name)?
+    - I need some details about [castellvi, quim](name), can you help me out?
+    - What do you know about [lluch alvarez, eric](name) that you can tell me?
+    - Could you tell me more about [daniel](name), please?
+    - I want to learn more about [velazco](name), can you help me with that?
+    - Please provide me with some details on [angel](name).
+    - Could you provide me with some details on [juan](name), please?
+    - I'm curious to know about [bosser](name), can you share some information?
+    - Can you provide me with some insights into [boyer](name)?
+    - Tell me something I might not know about [castellvi](name).
+    - I'm curious to know about [baumgartner , laura](name), can you share some information?
+    - Could you provide me with some background information on [andy](name)?
+    - Can you give me some background information on [castellote](name)?
+    - What are some interesting facts about [javier](name) that you can share?
+    - Could you give me some information on [colombaro , ivano](name), please?
+    - I'd like to know more about [ferraro](name), could you help me out?
+    - What do you know about [caro](name)? Can you share that with me?
+    - Could you tell me more about [fenoy](name), please?
+    - I'm curious about [correya](name), can you tell me about them?
+    - Tell me something I might not know about [cano](name).
+    - Can you tell me about [eremenko](name) and what they do?
+    - Can you give me some background information on [alberto](name)?
+    - Can you provide me with some insights into [cabeceran](name)?
+    - I want to learn about [allonsius](name), can you provide me with some information?
+    - I'd like to know more about [aragon](name), can you provide that?
+    - I'm looking for details on [steccanella , lorenzo](name), can you assist me?
+    - What can you tell me about [aggelos](name)?
+    - Can you give me an overview of [serra](name), please?
+    - Could you tell me more about [pascual molina, belen](name), please?
+    - Can you give me an overview of [ernest](name), please?
+    - Tell me what you know about [cistola](name), please.
+    - Please provide me with some details on [pindado tost, zaira](name).
+    - I'm curious to know about [alexandra-catalina](name), can you share some information?
+    - I'm looking for details on [tudela](name), can you assist me?
+    - Please tell me about [martin fernandez, adrian](name), I'm curious.
+    - What are some interesting facts about [lloret](name) that you can share?
+    - I'd like to know more about [gonzalez martinez, cristina](name), could you help me out?
+    - I'd like to know more about [amarasinghe](name), could you help me out?
+    - What do you know about [vladimir](name) that you can tell me?
+    - Could you share some information with me about [rauschenberger , maria](name)?
+    - Could you provide me with some background information on [font segura, josep](name)?
+    - I need some details about [nuria](name), can you help me out?
+    - Could you give me some information on [gasparrini](name), please?
+    - What do you know about [abura'ed](name)? Can you share that with me?
+    - I'd like to know more about [figuls](name), could you help me out?
+    - Could you share some information with me about [binefa](name)?
+    - Tell me something I might not know about [rafael](name).
+    - Please tell me about [casamayor pujol, victor](name), I'm curious.
+    - Can you give me an overview of [dominguez](name), please?
+    - What do you know about [mercadal cavaller, borja](name) that you can tell me?
+    - I'm interested in learning about [bento](name), can you tell me more?
+    - What do you know about [borras](name) that you can tell me?
+    - Tell me what you know about [hahn](name), please.
+    - Can you give me an overview of [nogueira , mariana](name), please?
+    - I'm curious about [tawfiq](name), can you tell me about them?
+    - Tell me something I might not know about [mangado](name).
+    - What can you tell me about [sergio](name)?
+    - Can you give me some background information on [ivorra](name)?
+    - Please tell me about [blat gimeno, jose angel](name), I'm curious.
+    - Could you provide me with some background information on [malvestio](name)?
+    - Could you provide me with some details on [lorenzo](name), please?
+    - Please tell me about [otin](name), I'm curious.
+    - Can you provide me with some insights into [jonsson](name)?
+    - Tell me what you know about [rocio](name), please.
+    - Tell me something I might not know about [marc](name).
+    - Can you give me an overview of [bosque](name), please?
+    - I'm looking for details on [silab](name), can you assist me?
+    - Please tell me about [paloma](name), I'm curious.
+    - What can you tell me about [camara rey, oscar](name)?
+    - Could you provide me with some details on [alex](name), please?
+    - What's there to know about [asensio](name)? Can you tell me?
+    - Can you provide me with some insights into [antónio](name)?
+    - What's there to know about [ten ventura, carla](name)? Can you tell me?
+    - Can you provide me with some insights into [arsiwalla](name)?
+    - I'm curious to know about [sebastián](name), can you share some information?
+    - I am looking for details on [gomez villa, alexander](name), can you assist me?
+    - I'm looking for details on [puig](name), can you assist me?
+    - What do you know about [riera](name)? Can you share that with me?
+    - I'd like to know more about [tovstogan](name), can you provide that?
+    - Could you provide me with some background information on [casamayor del bosque, gerard](name)?
+    - Can you give me an overview of [carrascosa zamacois, marc](name), please?
+    - What can you tell me about [salleras soler, xavier](name), exactly?
+    - Please provide me with some details on [tomás](name).
+    - Tell me what you know about [camara](name), please.
+    - What can you tell me about [dimiccoli](name), exactly?
+    - I'm curious about [carlini salguero, roberto juan](name), can you tell me about them?
+    - Could you tell me more about [veiga](name), please?
+    - What are some interesting facts about [carenys](name) that you can share?
+    - Tell me what you know about [wilhelmi](name), please.
+    - I want to learn more about [pablo](name), can you help me with that?
+    - I'm curious about [molina](name), can you tell me about them?
+    - Tell me what you know about [beardsley , marc yoshimi](name), please.
+    - Could you give me some information on [raad cisa, lara](name), please?
+    - What do you know about [miron](name) that you can tell me?
+    - Tell me something I might not know about [grivolla , jens](name).
+    - What can you tell me about [coloma](name)?
+    - Could you tell me more about [mora guiard, joan](name), please?
+    - What do you know about [ochugboju](name)? Can you share that with me?
+    - Could you share some information with me about [tovstogan , philip](name)?
+    - Could you tell me more about [boris](name), please?
+    - Can you give me an overview of [ponce alvarez, adrian fernando](name), please?
+    - I want to learn more about [accuosto , pablo](name), can you help me with that?
+    - Could you tell me more about [plass portulas, hermann](name), please?
+    - Can you tell me about [corbera](name) and what they do?
+    - I want to learn about [sheang , kim cheng](name), can you provide me with some information?
+    - I need some details about [hahn , gerald](name), can you help me out?
+    - Can you provide me with some insights into [accuosto](name)?
+    - I'm curious about [jana](name), can you tell me about them?
+    - Could you provide me with some background information on [neu , gergely](name)?
+    - Could you share some information with me about [codina filba, joan](name)?
+    - I need some details about [fabregas](name), can you help me out?
+    - I'm interested in learning about [lozano](name), can you tell me more?
+    - I want to learn more about [jonsson , anders](name), can you help me with that?
+    - Tell me something I might not know about [felipe](name).
+    - I need some details about [martínez moreno, judit](name), can you help me out?
+    - I want to learn about [david](name), can you provide me with some information?
+    - Can you give me some background information on [franzoni](name)?
+    - I'm looking for details on [porcaro](name), can you assist me?
+    - I want to learn more about [rozado , nicolas gaston](name), can you help me with that?
+    - Please provide me with some details on [dimiccoli , mariella](name).
+    - What can you tell me about [carrascosa](name)?
+    - Can you provide me with some insights into [adrian](name)?
+    - Tell me what you know about [melia](name), please.
+    - I'd like to know more about [codina](name), could you help me out?
+    - What are some interesting facts about [neu](name) that you can share?
+    - I'm curious to know about [agustin](name), can you share some information?
+    - Can you provide me with information about [mariella](name)?
+    - Tell me what you know about [fajardo](name), please.
+    - I'm looking for details on [galella](name), can you assist me?
+    - Can you give me an overview of [lewin richter osiander, andres](name), please?
+    - I am looking for details on [hernandez leo, davinia](name), can you assist me?
+    - I need some details about [piella fenoy, gema](name), can you help me out?
+    - I'd like to know more about [montero](name), could you help me out?
+    - Can you give me some background information on [soler](name)?
+    - Can you provide me with information about [giraldo](name)?
+    - I'd like to know more about [lopez velazco, rocio](name), can you provide that?
+    - Could you provide me with some details on [arezou](name), please?
+    - I want to learn about [albo, laia](name), can you provide me with some information?
+    - Can you give me an overview of [cabrera](name), please?
+    - I'd like to know more about [adhikari](name), could you help me out?
+    - Could you provide me with some background information on [umbert morist, marti](name)?
+    - Can you give me some background information on [gomez cañon, juan sebastián](name)?
+    - I'd like to know more about [giorgia](name), could you help me out?
+    - Tell me what you know about [casares](name), please.
+    - I'd like to know more about [champion](name), can you provide that?
+    - What do you know about [cavaller](name) that you can tell me?
+    - What can you tell me about [irene](name)?
+    - Could you share some information with me about [matreata , alexandra-catalina](name)?
+    - I want to learn about [vitoria](name), can you provide me with some information?
+    - Can you tell me about [ferraro , andres](name) and what they do?
+    - Tell me what you know about [arbues sangüesa, adrià](name), please.
+    - I'm curious about [lozano solsona, angel](name), can you tell me about them?
+    - Can you tell me about [joan](name) and what they do?
+    - I want to learn about [ralph](name), can you provide me with some information?
+    - What are some interesting facts about [ronda carrasco, manuel](name) that you can share?
+    - I need some details about [cabrero](name), can you help me out?
+    - Could you share some information with me about [marzieh](name)?
+    - I need some details about [daza fernandez, vanesa](name), can you help me out?
+    - Could you provide me with some details on [garcia sanchez, tomás](name), please?
+    - I'm looking for details on [vsevolod](name), can you assist me?
+    - I'd like to know more about [antonio](name), could you help me out?
+    - I want to learn more about [barrio](name), can you help me with that?
+    - Can you give me an overview of [yesiler](name), please?
+    - Please tell me about [eric](name), I'm curious.
+    - Could you provide me with some details on [vujovic](name), please?
+    - Tell me something I might not know about [ruiz wills, carlos eduardo](name).
+    - Can you provide me with some insights into [perez](name)?
+    - I want to learn about [gil](name), can you provide me with some information?
+    - What can you tell me about [narcis](name), exactly?
+    - Could you share some information with me about [zhu](name)?
+    - I want to learn about [öktem](name), can you provide me with some information?
+    - What are some interesting facts about [eremenko , vsevolod](name) that you can share?
+    - Could you tell me more about [bel](name), please?
+    - Please tell me about [gonzalez ballester, miguel angel](name), I'm curious.
+    - I am looking for details on [sule](name), can you assist me?
+    - What can you tell me about [shvets , alexander](name), exactly?
+    - What can you tell me about [latif](name), exactly?
+    - What's there to know about [pons puig, jordi](name)? Can you tell me?
+    - I want to learn about [adriana](name), can you provide me with some information?
+    - I want to learn more about [serrano raguan, montserrat](name), can you help me with that?
+    - Tell me something I might not know about [federico](name).
+    - What do you know about [chamorro servent, judit](name)? Can you share that with me?
+    - I'm looking for details on [raguan](name), can you assist me?
+    - Could you provide me with some background information on [sonia](name)?
+    - Can you provide me with some insights into [tudela pi, marc](name)?
+    - Could you provide me with some details on [yagüe mendez, carlos](name), please?
+    - Tell me something I might not know about [víctor](name).
+    - Could you provide me with some details on [ocaranza](name), please?
+    - What are some interesting facts about [ventura](name) that you can share?
+    - Tell me something I might not know about [champion colell, judith](name).
+    - I'm looking for details on [pujol](name), can you assist me?
+    - I'd like to know more about [zamacois](name), could you help me out?
+    - What are some interesting facts about [bernard](name) that you can share?
+    - Can you give me an overview of [burgues](name), please?
+    - Could you provide me with some details on [nicolau](name), please?
+    - I'd like to know more about [laura](name), can you provide that?
+    - What's there to know about [porter , alastair stewart](name)? Can you tell me?
+    - Can you give me some background information on [mehmet](name)?
+    - Can you provide me with information about [marie-monique](name)?
+    - Can you provide me with information about [nunes , cecilia maria costa bento sousa](name)?
+    - Could you tell me more about [garcia escobosa, lydia](name), please?
+    - Could you share some information with me about [sanchez martinez, sergio](name)?
+    - Please provide me with some details on [lilja](name).
+    - I want to learn more about [malinverni](name), can you help me with that?
+    - Tell me what you know about [canham](name), please.
+    - I want to learn more about [climent](name), can you help me with that?
+    - I need some details about [castillo](name), can you help me out?
+    - I need some details about [puranik](name), can you help me out?
+    - Can you provide me with information about [perfecto](name)?
+    - Could you share some information with me about [azadeh](name)?
+    - Could you provide me with some background information on [agenjo asensio, javier](name)?
+    - I'm interested in learning about [martinez vicente, alfonso](name), can you tell me more?
+    - I'm curious to know about [llopis](name), can you share some information?
+    - Could you give me some information on [araceli](name), please?
+    - Could you provide me with some background information on [won , minz](name)?
+    - What's there to know about [becerra](name)? Can you tell me?
+    - What can you tell me about [freire veiga, ana maria](name), exactly?
+    - I am looking for details on [marcelo](name), can you assist me?
+    - I'm looking for details on [rodriguez](name), can you assist me?
+    - I need some details about [freire](name), can you help me out?
+    - Tell me something I might not know about [ronda](name).
+    - I need some details about [torrents barrena, jordina](name), can you help me out?
+    - I'm interested in learning about [nicolas](name), can you tell me more?
+    - Could you tell me more about [abura'ed , ahmed ghassan tawfiq](name), please?
+    - What do you know about [chamorro](name) that you can tell me?
+    - What can you tell me about [quim](name)?
+    - I want to learn about [favory , xavier](name), can you provide me with some information?
+    - Could you share some information with me about [fernando](name)?
+    - Could you provide me with some details on [faridi ermagan, azadeh](name), please?
+    - Could you share some information with me about [salas](name)?
+    - What can you tell me about [morist](name), exactly?
+    - Tell me something I might not know about [melendez](name).
+    - I want to learn about [moreno](name), can you provide me with some information?
+    - Could you share some information with me about [daza](name)?
+    - What's there to know about [malinverni , laura](name)? Can you tell me?
+    - I'm curious to know about [h](name), can you share some information?
+    - I'd like to know more about [iván](name), can you provide that?
+    - Could you give me some information on [faraldo perez, angel](name), please?
+    - Could you provide me with some details on [vazquez](name), please?
+    - I'm curious to know about [benavent climent, paloma](name), can you share some information?
+    - Can you provide me with information about [fayez](name)?
+    - I want to learn more about [olkhovskaia](name), can you help me with that?
+    - Could you give me some information on [comerma](name), please?
+    - Can you tell me about [francesc](name) and what they do?
+    - Please provide me with some details on [dalmau](name).
+    - I'm curious to know about [marti juan, gerard](name), can you share some information?
+    - I need some details about [farrus](name), can you help me out?
+    - Can you tell me about [marichal](name) and what they do?
+    - I'm curious about [cabrera , david](name), can you tell me about them?
+    - What can you tell me about [figuls fernandez, nuria](name)?
+    - I want to learn about [tiange](name), can you provide me with some information?
+    - What's there to know about [solsona](name)? Can you tell me?
+    - Please tell me about [dalton](name), I'm curious.
+    - I want to learn about [marius](name), can you provide me with some information?
+    - What's there to know about [pares burgues, narcis](name)? Can you tell me?
+    - Can you give me an overview of [velon](name), please?
+    - Can you give me some background information on [francesco](name)?
+    - I'd like to know more about [shenoy](name), can you provide that?
+    - I'm curious to know about [gkiokas , aggelos](name), can you share some information?
+    - What do you know about [filba](name)? Can you share that with me?
+    - I want to learn more about [cabrero daniel, beatriz](name), can you help me with that?
+    - Could you share some information with me about [lekadir , karim](name)?
+    - Please provide me with some details on [montserrat](name).
+    - I want to learn about [becerra fajardo, laura](name), can you provide me with some information?
+    - Could you provide me with some details on [mercadal](name), please?
+    - I'm looking for details on [berkay](name), can you assist me?
+    - Can you tell me about [alonso jimenez, pablo](name) and what they do?
+    - I'm interested in learning about [peiro lilja, alex](name), can you tell me more?
+    - What can you tell me about [guaus termens, enrique](name)?
+    - Could you give me some information on [vanesa](name), please?
+    - Can you tell me about [garrido](name) and what they do?
+    - I need some details about [grivolla](name), can you help me out?
+    - Could you tell me more about [eduardo](name), please?
+    - Could you provide me with some background information on [gimeno](name)?
+    - Can you provide me with some insights into [tassani , simone](name)?
+    - I need some details about [beltran](name), can you help me out?
+    - What can you tell me about [shenoy kadandale , venkatesh](name)?
+    - What can you tell me about [blanco](name), exactly?
+    - Could you give me some information on [cerda](name), please?
+    - I'd like to know more about [dmitry](name), can you provide that?
+    - Could you give me some information on [pi](name), please?
+    - Can you tell me about [gkiokas](name) and what they do?
+    - Please provide me with some details on [lydia](name).
+    - I'm curious about [gutierrez](name), can you tell me about them?
+    - Could you share some information with me about [lourdes](name)?
+    - Please tell me about [gerard](name), I'm curious.
+    - Can you give me an overview of [gomez](name), please?
+    - What do you know about [francisco](name) that you can tell me?
+    - I'm curious about [pindado](name), can you tell me about them?
+    - Please tell me about [fairen](name), I'm curious.
+    - I'd like to know more about [blaauw , merlijn](name), could you help me out?
+    - Please tell me about [carlini](name), I'm curious.
+    - Tell me something I might not know about [katharina](name).
+    - I'm looking for details on [agenjo](name), can you assist me?
+    - What can you tell me about [bijnens](name)?
+    - Can you tell me about [lobo](name) and what they do?
+    - Can you provide me with information about [binefa valls, xavier](name)?
+    - Could you share some information with me about [irum](name)?
+    - I'm looking for details on [blanco casares, angel-david](name), can you assist me?
+    - I'm curious to know about [ruzzene , giulia](name), can you share some information?
+    - Please provide me with some details on [font corbera, frederic](name).
+    - What are some interesting facts about [andrzejak](name) that you can share?
+    - I'm curious to know about [miguel](name), can you share some information?
+    - I'm looking for details on [pereira](name), can you assist me?
+    - I'm interested in learning about [davinia](name), can you tell me more?
+    - Could you share some information with me about [jaureguizar salas, montserrat](name)?
+    - Could you provide me with some background information on [haro ortega, gloria](name)?
+    - I'm curious about [asenjo](name), can you tell me about them?
+    - What can you tell me about [mangado lopez, nerea](name)?
+    - Could you give me some information on [montbrió fairen, ernest](name), please?
+    - Can you tell me about [noailly](name) and what they do?
+    - Can you provide me with information about [martí castellote, pablo-miki](name)?
+    - What can you tell me about [bellalta](name), exactly?
+    - What's there to know about [nuria barrio](name)? Can you tell me?
+    - What can you tell me about [vitoria carrera, patricia](name)?
+    - Can you provide me with information about [cristina](name)?
+    - I'd like to know more about [alejandro](name), could you help me out?
+    - What do you know about [amelia](name) that you can tell me?
+    - Could you give me some information on [oliver](name), please?
+    - I'm curious to know about [pascual](name), can you share some information?
+    - I'm looking for details on [laia](name), can you assist me?
+    - I want to learn about [espi fernandez, sonia](name), can you provide me with some information?
+    - Could you tell me more about [razquin](name), please?
+    - What do you know about [barate](name)? Can you share that with me?
+    - What do you know about [miquel](name) that you can tell me?
+    - What's there to know about [favory](name)? Can you tell me?
+    - I want to learn about [repetto](name), can you provide me with some information?
+    - Tell me what you know about [faraldo](name), please.
+    - What are some interesting facts about [oliver riera, miquel](name) that you can share?
+    - Can you provide me with some insights into [del](name)?
+    - I'm curious about [plass](name), can you tell me about them?
+    - What are some interesting facts about [osiander](name) that you can share?
+    - I'm interested in learning about [itziar](name), can you tell me more?
+    - What do you know about [miron , marius](name) that you can tell me?
+    - Could you provide me with some details on [oramas martin, sergio](name), please?
+    - I'm curious to know about [silva velon, javier](name), can you share some information?
+    - Could you provide me with some details on [guiard](name), please?
+    - What do you know about [ruiz](name)? Can you share that with me?
+    - What do you know about [won](name) that you can tell me?
+    - What do you know about [patricia pino](name)? Can you share that with me?
+    - What can you tell me about [tost](name)?
+    - Could you provide me with some details on [espi](name), please?
+    - Can you give me an overview of [salleras](name), please?
+    - Could you provide me with some details on [gasparrini , marco jerome](name), please?
+    - Can you tell me about [raquel](name) and what they do?
+    - I'm curious to know about [colell](name), can you share some information?
+    - Could you provide me with some details on [olcoz](name), please?
+    - I am looking for details on [mohamed](name), can you assist me?
+    - Please provide me with some details on [carla](name).
+    - I want to learn more about [guillermo](name), can you help me with that?
+    - What do you know about [herrera](name)? Can you share that with me?
+    - I'm curious about [olkhovskaia , iuliia](name), can you tell me about them?
+    - I'd like to know more about [benavent](name), can you provide that?
+    - Can you give me an overview of [sangüesa](name), please?
+    - What do you know about [pino](name) that you can tell me?
+    - I need some details about [angel-david](name), can you help me out?
+    - Can you provide me with information about [antoni](name)?
+    - What can you tell me about [steccanella](name)?
+    - I'm looking for details on [schaper , marie-monique](name), can you assist me?
 
 - intent: ask_group
   examples: |
-    - I want to know something about AI&ML: [Artificial Intelligence and Machine Learning group](group)
-    - Can you introduce the AI lab for me?
-    - I want to know who is at [Cognitive Media Technologies Group](group).
+    - Could you give me some information on the history of the [BERG Biomedical Electronics Research Group](group)?
+    - I'm looking for details on the [BERG Biomedical Electronics Research Group](group), could you assist me with that?
+    - Could you provide me with some information on the achievements of the [BERG Biomedical Electronics Research Group](group)?
+    - Please provide me with some information on the publications that have been authored by members of the [BERG Biomedical Electronics Research Group](group).
+    - Could you provide me with some information on the achievements of the [BERG Biomedical Electronics Research Group](group)?
+    - What kind of work does the [BERG Biomedical Electronics Research Group](group) do?
+    - I want to learn about the [BERG Biomedical Electronics Research Group](group), could you provide me with some background information?
+    - I'm looking for details on the [BERG Biomedical Electronics Research Group](group), could you assist me with that?
+    - Could you tell me about the tools and resources that the [BERG Biomedical Electronics Research Group](group) uses?
+    - I want to learn about the [BERG Biomedical Electronics Research Group](group), could you provide me with some background information?
+    - I'd like to learn more about the [BERG Biomedical Electronics Research Group](group), could you provide me with some information?
+    - I'm looking for details on the [BERG Biomedical Electronics Research Group](group), could you assist me with that?
+    - Could you give me some information on the history of the [BERG Biomedical Electronics Research Group](group)?
+    - Please tell me about the [BERG Biomedical Electronics Research Group](group), I'd like to know more.
+    - Can you provide me with information about the [BERG Biomedical Electronics Research Group](group)?
+    - Please tell me about the projects that the [CMTECH: Cognitive Media Technologies Group](group) has completed in the past.
+    - Could you tell me about the tools and resources that the [CMTECH: Cognitive Media Technologies Group](group) uses?
+    - Could you provide me with some details on the [CMTECH: Cognitive Media Technologies Group](group)?
+    - What is the goal of the [CMTECH: Cognitive Media Technologies Group](group)?
+    - Could you provide me with some details on the [CMTECH: Cognitive Media Technologies Group](group)?
+    - Please provide me with some information on the publications that have been authored by members of the [CMTECH: Cognitive Media Technologies Group](group).
+    - Could you provide me with some details on the [CMTECH: Cognitive Media Technologies Group](group)?
+    - What is the goal of the [CMTECH: Cognitive Media Technologies Group](group)?
+    - I'm interested in knowing more about the [CMTECH: Cognitive Media Technologies Group](group), can you help me with that?
+    - Could you provide me with some details on the [CMTECH: Cognitive Media Technologies Group](group)?
+    - I'm interested in knowing more about the [CMTECH: Cognitive Media Technologies Group](group), can you help me with that?
+    - Can you provide me with information about the [CMTECH: Cognitive Media Technologies Group](group)?
+    - Can you provide me with information about the [CMTECH: Cognitive Media Technologies Group](group)?
+    - Can you tell me about the projects that the [CMTECH: Cognitive Media Technologies Group](group) is currently working on?
+    - What can you tell me about the [CMTECH: Cognitive Media Technologies Group](group)?
+    - Could you provide me with some details on the [UGA TIC- Recruitment , Docorate & International ETIC](group)?
+    - Could you tell me about the research focus of the [UGA TIC- Recruitment , Docorate & International ETIC](group)?
+    - Can you give me an overview of the [UGA TIC- Recruitment , Docorate & International ETIC](group), please?
+    - Could you tell me about the research focus of the [UGA TIC- Recruitment , Docorate & International ETIC](group)?
+    - What kind of work does the [UGA TIC- Recruitment , Docorate & International ETIC](group) do?
+    - I'm interested in knowing more about the [UGA TIC- Recruitment , Docorate & International ETIC](group), can you help me with that?
+    - I want to know more about the [UGA TIC- Recruitment , Docorate & International ETIC](group)'s research methods and approaches, could you provide me with that information?
+    - Can you tell me about the projects that the [UGA TIC- Recruitment , Docorate & International ETIC](group) is currently working on?
+    - What are some interesting facts about the [UGA TIC- Recruitment , Docorate & International ETIC](group) that you can share?
+    - Can you provide me with information about the [UGA TIC- Recruitment , Docorate & International ETIC](group)?
+    - I'm interested in learning about the [UGA TIC- Recruitment , Docorate & International ETIC](group), can you help me with that?
+    - What are some interesting facts about the [UGA TIC- Recruitment , Docorate & International ETIC](group) that you can share?
+    - Can you tell me about the impact of the [UGA TIC- Recruitment , Docorate & International ETIC](group)'s research on the field?
+    - I'm curious about the [UGA TIC- Recruitment , Docorate & International ETIC](group), could you share some information with me?
+    - What is the goal of the [UGA TIC- Recruitment , Docorate & International ETIC](group)?
+    - Can you tell me about the impact of the [NETS Network Technologies and Strategies Group](group)'s research on the field?
+    - What kind of technologies does the [NETS Network Technologies and Strategies Group](group) specialize in?
+    - What do you know about the [NETS Network Technologies and Strategies Group](group)? Can you share that with me?
+    - I'm interested in knowing more about the [NETS Network Technologies and Strategies Group](group), can you help me with that?
+    - Can you tell me about the mission statement of the [NETS Network Technologies and Strategies Group](group)?
+    - Can you tell me about the mission statement of the [NETS Network Technologies and Strategies Group](group)?
+    - I'm curious about the [NETS Network Technologies and Strategies Group](group), could you tell me more about them?
+    - I'm curious about the [NETS Network Technologies and Strategies Group](group), could you tell me more about them?
+    - Can you tell me about the mission statement of the [NETS Network Technologies and Strategies Group](group)?
+    - What is the goal of the [NETS Network Technologies and Strategies Group](group)?
+    - I'm looking for details on the [NETS Network Technologies and Strategies Group](group), could you assist me with that?
+    - Can you give me an overview of the [NETS Network Technologies and Strategies Group](group), please?
+    - What are some interesting facts about the [NETS Network Technologies and Strategies Group](group) that you can share?
+    - Can you tell me about the impact of the [NETS Network Technologies and Strategies Group](group)'s research on the field?
+    - Please provide me with some information on the publications that have been authored by members of the [NETS Network Technologies and Strategies Group](group).
+    - Can you tell me about the impact of the [WSSC: Web Science and Social Computing](group)'s research on the field?
+    - Please tell me about the [WSSC: Web Science and Social Computing](group), I'd like to know more.
+    - What is the goal of the [WSSC: Web Science and Social Computing](group)?
+    - I'm interested in knowing more about the [WSSC: Web Science and Social Computing](group), can you help me with that?
+    - Could you tell me about the research focus of the [WSSC: Web Science and Social Computing](group)?
+    - I'm interested in learning about the [WSSC: Web Science and Social Computing](group), can you help me with that?
+    - I'm curious about the [WSSC: Web Science and Social Computing](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Could you tell me about the research focus of the [WSSC: Web Science and Social Computing](group)?
+    - I'm interested in learning about the [WSSC: Web Science and Social Computing](group), can you help me with that?
+    - Can you tell me about the mission statement of the [WSSC: Web Science and Social Computing](group)?
+    - I want to learn about the [WSSC: Web Science and Social Computing](group), could you provide me with some background information?
+    - What are some interesting facts about the [WSSC: Web Science and Social Computing](group) that you can share?
+    - What are some interesting facts about the [WSSC: Web Science and Social Computing](group) that you can share?
+    - I want to learn about the [WSSC: Web Science and Social Computing](group), could you provide me with some background information?
+    - Could you give me some information on the history of the [WSSC: Web Science and Social Computing](group)?
+    - I'm looking for details on the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), could you assist me with that?
+    - Can you tell me about the projects that the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group) is currently working on?
+    - Could you provide me with some information on the achievements of the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)?
+    - I'd like to know more about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)'s partnerships with industry and government, could you provide me with some details?
+    - Can you provide me with information about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)?
+    - Could you tell me about the tools and resources that the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group) uses?
+    - Please tell me about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), I'd like to know more.
+    - Can you tell me about the impact of the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)'s research on the field?
+    - I want to learn about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), could you provide me with some background information?
+    - I'm interested in knowing more about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), can you help me with that?
+    - Could you provide me with some information on the achievements of the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)?
+    - Can you give me an overview of the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), please?
+    - I'm curious about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group), could you tell me more about them?
+    - I'm curious about the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Please provide me with some information on the publications that have been authored by members of the [SIMBIOsys: Simulation, Imaging and Modelling for Biomedical Systems](group).
+    - I'm interested in learning about the [UGA TIC- Polytechnic School](group), can you help me with that?
+    - What is the goal of the [UGA TIC- Polytechnic School](group)?
+    - What kind of technologies does the [UGA TIC- Polytechnic School](group) specialize in?
+    - Please tell me about the projects that the [UGA TIC- Polytechnic School](group) has completed in the past.
+    - Could you give me some information on the history of the [UGA TIC- Polytechnic School](group)?
+    - What can you tell me about the [UGA TIC- Polytechnic School](group)?
+    - Could you tell me about the research focus of the [UGA TIC- Polytechnic School](group)?
+    - I'm looking for details on the [UGA TIC- Polytechnic School](group), could you assist me with that?
+    - I'm curious about the [UGA TIC- Polytechnic School](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - I'm looking for details on the [UGA TIC- Polytechnic School](group), could you assist me with that?
+    - What do you know about the [UGA TIC- Polytechnic School](group)? Can you share that with me?
+    - Please tell me about the projects that the [UGA TIC- Polytechnic School](group) has completed in the past.
+    - I'm curious about the [UGA TIC- Polytechnic School](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - What is the goal of the [UGA TIC- Polytechnic School](group)?
+    - Can you provide me with some insights into the research conducted by the [UGA TIC- Polytechnic School](group)?
+    - Can you provide me with information about the [UBICALAB: Ubiquitous Computing Applications Lab](group)?
+    - What kind of technologies does the [UBICALAB: Ubiquitous Computing Applications Lab](group) specialize in?
+    - Could you provide me with some information on the achievements of the [UBICALAB: Ubiquitous Computing Applications Lab](group)?
+    - I'd like to know more about the [UBICALAB: Ubiquitous Computing Applications Lab](group)'s partnerships with industry and government, could you provide me with some details?
+    - I'm curious about the [UBICALAB: Ubiquitous Computing Applications Lab](group), could you share some information with me?
+    - I'm curious about the [UBICALAB: Ubiquitous Computing Applications Lab](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - I'm interested in knowing more about the [UBICALAB: Ubiquitous Computing Applications Lab](group), can you help me with that?
+    - I'm interested in learning about the [UBICALAB: Ubiquitous Computing Applications Lab](group), can you help me with that?
+    - I'm interested in learning about the [UBICALAB: Ubiquitous Computing Applications Lab](group), can you help me with that?
+    - What kind of work does the [UBICALAB: Ubiquitous Computing Applications Lab](group) do?
+    - I'd like to learn more about the [UBICALAB: Ubiquitous Computing Applications Lab](group), could you provide me with some information?
+    - What kind of work does the [UBICALAB: Ubiquitous Computing Applications Lab](group) do?
+    - Can you provide me with information about the [UBICALAB: Ubiquitous Computing Applications Lab](group)?
+    - I'm interested in knowing more about the [UBICALAB: Ubiquitous Computing Applications Lab](group), can you help me with that?
+    - I'm interested in knowing more about the [UBICALAB: Ubiquitous Computing Applications Lab](group), can you help me with that?
+    - I'm curious about the [ITC: Information Theory and Coding Group](group), could you share some information with me?
+    - Please tell me about the projects that the [ITC: Information Theory and Coding Group](group) has completed in the past.
+    - Could you provide me with some information on the achievements of the [ITC: Information Theory and Coding Group](group)?
+    - Please provide me with some information on the publications that have been authored by members of the [ITC: Information Theory and Coding Group](group).
+    - Please tell me about the projects that the [ITC: Information Theory and Coding Group](group) has completed in the past.
+    - I'd like to learn more about the [ITC: Information Theory and Coding Group](group), could you provide me with some information?
+    - Can you tell me about the mission statement of the [ITC: Information Theory and Coding Group](group)?
+    - What kind of work does the [ITC: Information Theory and Coding Group](group) do?
+    - Could you tell me about the tools and resources that the [ITC: Information Theory and Coding Group](group) uses?
+    - Can you tell me about the projects that the [ITC: Information Theory and Coding Group](group) is currently working on?
+    - Can you provide me with information about the [ITC: Information Theory and Coding Group](group)?
+    - Could you provide me with some information on the achievements of the [ITC: Information Theory and Coding Group](group)?
+    - I'm looking for details on the [ITC: Information Theory and Coding Group](group), could you assist me with that?
+    - Can you tell me about the impact of the [ITC: Information Theory and Coding Group](group)'s research on the field?
+    - What are some interesting facts about the [ITC: Information Theory and Coding Group](group) that you can share?
+    - What kind of technologies does the [Computational Neuroscience](group) specialize in?
+    - Can you tell me about the impact of the [Computational Neuroscience](group)'s research on the field?
+    - I'm curious about the [Computational Neuroscience](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Could you provide me with some information on the achievements of the [Computational Neuroscience](group)?
+    - What kind of work does the [Computational Neuroscience](group) do?
+    - I'd like to know more about the [Computational Neuroscience](group)'s partnerships with industry and government, could you provide me with some details?
+    - Could you tell me about the members of the [Computational Neuroscience](group)?
+    - I'd like to know more about the [Computational Neuroscience](group)'s partnerships with industry and government, could you provide me with some details?
+    - What can you tell me about the [Computational Neuroscience](group)?
+    - What do you know about the [Computational Neuroscience](group)? Can you share that with me?
+    - What is the goal of the [Computational Neuroscience](group)?
+    - Can you give me an overview of the [Computational Neuroscience](group), please?
+    - Could you tell me about the tools and resources that the [Computational Neuroscience](group) uses?
+    - I'm interested in knowing more about the [Computational Neuroscience](group), can you help me with that?
+    - Can you tell me about the mission statement of the [Computational Neuroscience](group)?
+    - I want to learn about the [MTG: Music Technology Group](group), could you provide me with some background information?
+    - Can you tell me about the projects that the [MTG: Music Technology Group](group) is currently working on?
+    - Could you tell me about the members of the [MTG: Music Technology Group](group)?
+    - What are some interesting facts about the [MTG: Music Technology Group](group) that you can share?
+    - Can you provide me with some insights into the research conducted by the [MTG: Music Technology Group](group)?
+    - What are some interesting facts about the [MTG: Music Technology Group](group) that you can share?
+    - What do you know about the [MTG: Music Technology Group](group)? Can you share that with me?
+    - Can you provide me with some insights into the research conducted by the [MTG: Music Technology Group](group)?
+    - I'm interested in knowing more about the [MTG: Music Technology Group](group), can you help me with that?
+    - Could you provide me with some details on the [MTG: Music Technology Group](group)?
+    - Can you tell me about the mission statement of the [MTG: Music Technology Group](group)?
+    - What is the goal of the [MTG: Music Technology Group](group)?
+    - I'd like to know more about the [MTG: Music Technology Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - Please tell me about the projects that the [MTG: Music Technology Group](group) has completed in the past.
+    - Could you tell me about the research focus of the [MTG: Music Technology Group](group)?
+    - What is the goal of the [Natural Language Processing](group)?
+    - What do you know about the [Natural Language Processing](group)? Can you share that with me?
+    - Please tell me about the [Natural Language Processing](group), I'd like to know more.
+    - Could you tell me about the tools and resources that the [Natural Language Processing](group) uses?
+    - I'm interested in learning about the [Natural Language Processing](group), can you help me with that?
+    - I'm looking for details on the [Natural Language Processing](group), could you assist me with that?
+    - I want to learn about the [Natural Language Processing](group), could you provide me with some background information?
+    - Can you give me an overview of the [Natural Language Processing](group), please?
+    - What kind of work does the [Natural Language Processing](group) do?
+    - Can you provide me with information about the [Natural Language Processing](group)?
+    - What do you know about the [Natural Language Processing](group)? Can you share that with me?
+    - Please tell me about the projects that the [Natural Language Processing](group) has completed in the past.
+    - I'm curious about the [Natural Language Processing](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Please provide me with some information on the publications that have been authored by members of the [Natural Language Processing](group).
+    - Can you give me an overview of the [Natural Language Processing](group), please?
+    - I'm interested in learning about the [UGA TIC- Polytechnic School Coordinator](group), can you help me with that?
+    - Please provide me with some information on the publications that have been authored by members of the [UGA TIC- Polytechnic School Coordinator](group).
+    - Can you tell me about the impact of the [UGA TIC- Polytechnic School Coordinator](group)'s research on the field?
+    - Please provide me with some information on the publications that have been authored by members of the [UGA TIC- Polytechnic School Coordinator](group).
+    - I'm interested in learning about the [UGA TIC- Polytechnic School Coordinator](group), can you help me with that?
+    - I'm interested in learning about the [UGA TIC- Polytechnic School Coordinator](group), can you help me with that?
+    - What kind of work does the [UGA TIC- Polytechnic School Coordinator](group) do?
+    - Could you tell me about the research focus of the [UGA TIC- Polytechnic School Coordinator](group)?
+    - Could you tell me about the research focus of the [UGA TIC- Polytechnic School Coordinator](group)?
+    - What do you know about the [UGA TIC- Polytechnic School Coordinator](group)? Can you share that with me?
+    - I'm curious about the [UGA TIC- Polytechnic School Coordinator](group), could you tell me more about them?
+    - Can you tell me about the projects that the [UGA TIC- Polytechnic School Coordinator](group) is currently working on?
+    - I'd like to learn more about the [UGA TIC- Polytechnic School Coordinator](group), could you provide me with some information?
+    - What kind of technologies does the [UGA TIC- Polytechnic School Coordinator](group) specialize in?
+    - I'd like to know more about the [UGA TIC- Polytechnic School Coordinator](group)'s partnerships with industry and government, could you provide me with some details?
+    - Could you give me some information on the history of the [UGA TIC - Pedagogue in USQUID](group)?
+    - What do you know about the [UGA TIC - Pedagogue in USQUID](group)? Can you share that with me?
+    - Could you provide me with some details on the [UGA TIC - Pedagogue in USQUID](group)?
+    - What do you know about the [UGA TIC - Pedagogue in USQUID](group)? Can you share that with me?
+    - Could you provide me with some information on the achievements of the [UGA TIC - Pedagogue in USQUID](group)?
+    - I'm looking for details on the [UGA TIC - Pedagogue in USQUID](group), could you assist me with that?
+    - I want to know more about the [UGA TIC - Pedagogue in USQUID](group)'s research methods and approaches, could you provide me with that information?
+    - Can you provide me with information about the [UGA TIC - Pedagogue in USQUID](group)?
+    - Could you tell me about the members of the [UGA TIC - Pedagogue in USQUID](group)?
+    - What kind of work does the [UGA TIC - Pedagogue in USQUID](group) do?
+    - Can you tell me about the mission statement of the [UGA TIC - Pedagogue in USQUID](group)?
+    - Can you tell me about the projects that the [UGA TIC - Pedagogue in USQUID](group) is currently working on?
+    - What can you tell me about the [UGA TIC - Pedagogue in USQUID](group)?
+    - I'm interested in knowing more about the [UGA TIC - Pedagogue in USQUID](group), can you help me with that?
+    - I'm interested in knowing more about the [UGA TIC - Pedagogue in USQUID](group), can you help me with that?
+    - What is the goal of the [NTSA: Nonlinear Time Series Analysis Group](group)?
+    - Please tell me about the projects that the [NTSA: Nonlinear Time Series Analysis Group](group) has completed in the past.
+    - Please provide me with some information on the publications that have been authored by members of the [NTSA: Nonlinear Time Series Analysis Group](group).
+    - I'm looking for details on the [NTSA: Nonlinear Time Series Analysis Group](group), could you assist me with that?
+    - Could you tell me about the tools and resources that the [NTSA: Nonlinear Time Series Analysis Group](group) uses?
+    - Please provide me with some information on the publications that have been authored by members of the [NTSA: Nonlinear Time Series Analysis Group](group).
+    - Could you tell me about the tools and resources that the [NTSA: Nonlinear Time Series Analysis Group](group) uses?
+    - What kind of technologies does the [NTSA: Nonlinear Time Series Analysis Group](group) specialize in?
+    - I want to learn about the [NTSA: Nonlinear Time Series Analysis Group](group), could you provide me with some background information?
+    - What can you tell me about the [NTSA: Nonlinear Time Series Analysis Group](group)?
+    - Please tell me about the [NTSA: Nonlinear Time Series Analysis Group](group), I'd like to know more.
+    - What kind of work does the [NTSA: Nonlinear Time Series Analysis Group](group) do?
+    - Could you provide me with some information on the achievements of the [NTSA: Nonlinear Time Series Analysis Group](group)?
+    - Could you tell me about the members of the [NTSA: Nonlinear Time Series Analysis Group](group)?
+    - I'd like to know more about the [NTSA: Nonlinear Time Series Analysis Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - Can you tell me about the projects that the [IPG: Image Processing Group](group) is currently working on?
+    - Can you tell me about the impact of the [IPG: Image Processing Group](group)'s research on the field?
+    - Could you tell me about the tools and resources that the [IPG: Image Processing Group](group) uses?
+    - Could you tell me about the research focus of the [IPG: Image Processing Group](group)?
+    - Could you give me some information on the history of the [IPG: Image Processing Group](group)?
+    - Can you tell me about the projects that the [IPG: Image Processing Group](group) is currently working on?
+    - Could you give me some information on the history of the [IPG: Image Processing Group](group)?
+    - I'm curious about the [IPG: Image Processing Group](group), could you share some information with me?
+    - I'm curious about the [IPG: Image Processing Group](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - I'd like to know more about the [IPG: Image Processing Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - I'd like to know more about the [IPG: Image Processing Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - I'd like to learn more about the [IPG: Image Processing Group](group), could you provide me with some information?
+    - Could you tell me about the tools and resources that the [IPG: Image Processing Group](group) uses?
+    - I'm curious about the [IPG: Image Processing Group](group), could you tell me more about them?
+    - What can you tell me about the [IPG: Image Processing Group](group)?
+    - What can you tell me about the [ITG: Interactive Technologies Group](group)?
+    - Can you provide me with information about the [ITG: Interactive Technologies Group](group)?
+    - Please tell me about the [ITG: Interactive Technologies Group](group), I'd like to know more.
+    - Can you give me an overview of the [ITG: Interactive Technologies Group](group), please?
+    - Could you provide me with some details on the [ITG: Interactive Technologies Group](group)?
+    - Can you tell me about the mission statement of the [ITG: Interactive Technologies Group](group)?
+    - I'm looking for details on the [ITG: Interactive Technologies Group](group), could you assist me with that?
+    - What do you know about the [ITG: Interactive Technologies Group](group)? Can you share that with me?
+    - Could you tell me about the research focus of the [ITG: Interactive Technologies Group](group)?
+    - Can you provide me with information about the [ITG: Interactive Technologies Group](group)?
+    - Could you give me some information on the history of the [ITG: Interactive Technologies Group](group)?
+    - What is the goal of the [ITG: Interactive Technologies Group](group)?
+    - What do you know about the [ITG: Interactive Technologies Group](group)? Can you share that with me?
+    - Please tell me about the projects that the [ITG: Interactive Technologies Group](group) has completed in the past.
+    - Could you tell me about the members of the [ITG: Interactive Technologies Group](group)?
+    - Could you tell me about the members of the [MTG: Music Technology Group / PHONOS](group)?
+    - Please tell me about the projects that the [MTG: Music Technology Group / PHONOS](group) has completed in the past.
+    - Could you tell me about the members of the [MTG: Music Technology Group / PHONOS](group)?
+    - Can you provide me with information about the [MTG: Music Technology Group / PHONOS](group)?
+    - What kind of technologies does the [MTG: Music Technology Group / PHONOS](group) specialize in?
+    - Can you tell me about the impact of the [MTG: Music Technology Group / PHONOS](group)'s research on the field?
+    - I want to know more about the [MTG: Music Technology Group / PHONOS](group)'s research methods and approaches, could you provide me with that information?
+    - I'm curious about the [MTG: Music Technology Group / PHONOS](group), could you tell me more about them?
+    - Can you tell me about the mission statement of the [MTG: Music Technology Group / PHONOS](group)?
+    - I'm interested in learning about the [MTG: Music Technology Group / PHONOS](group), can you help me with that?
+    - I'm curious about the [MTG: Music Technology Group / PHONOS](group), could you share some information with me?
+    - Can you give me an overview of the [MTG: Music Technology Group / PHONOS](group), please?
+    - Could you give me some information on the history of the [MTG: Music Technology Group / PHONOS](group)?
+    - I want to learn about the [MTG: Music Technology Group / PHONOS](group), could you provide me with some background information?
+    - What do you know about the [MTG: Music Technology Group / PHONOS](group)? Can you share that with me?
+    - What is the goal of the [Research Service](group)?
+    - What is the goal of the [Research Service](group)?
+    - Could you provide me with some information on the achievements of the [Research Service](group)?
+    - Can you tell me about the impact of the [Research Service](group)'s research on the field?
+    - I'm curious about the [Research Service](group), could you tell me more about them?
+    - What kind of technologies does the [Research Service](group) specialize in?
+    - Could you tell me about the members of the [Research Service](group)?
+    - What are some interesting facts about the [Research Service](group) that you can share?
+    - Can you provide me with some insights into the research conducted by the [Research Service](group)?
+    - Can you give me an overview of the [Research Service](group), please?
+    - Please provide me with some information on the publications that have been authored by members of the [Research Service](group).
+    - Please tell me about the projects that the [Research Service](group) has completed in the past.
+    - What do you know about the [Research Service](group)? Can you share that with me?
+    - Can you tell me about the mission statement of the [Research Service](group)?
+    - I'm curious about the [Research Service](group), could you share some information with me?
+    - I'm interested in knowing more about the [IPG: Image Processing Group/ MTG: Music Technology Group](group), can you help me with that?
+    - Could you tell me about the tools and resources that the [IPG: Image Processing Group/ MTG: Music Technology Group](group) uses?
+    - Can you provide me with some insights into the research conducted by the [IPG: Image Processing Group/ MTG: Music Technology Group](group)?
+    - Can you tell me about the projects that the [IPG: Image Processing Group/ MTG: Music Technology Group](group) is currently working on?
+    - What can you tell me about the [IPG: Image Processing Group/ MTG: Music Technology Group](group)?
+    - What kind of technologies does the [IPG: Image Processing Group/ MTG: Music Technology Group](group) specialize in?
+    - I'm curious about the [IPG: Image Processing Group/ MTG: Music Technology Group](group), could you share some information with me?
+    - What do you know about the [IPG: Image Processing Group/ MTG: Music Technology Group](group)? Can you share that with me?
+    - Can you tell me about the impact of the [IPG: Image Processing Group/ MTG: Music Technology Group](group)'s research on the field?
+    - Can you tell me about the impact of the [IPG: Image Processing Group/ MTG: Music Technology Group](group)'s research on the field?
+    - I'm curious about the [IPG: Image Processing Group/ MTG: Music Technology Group](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Please tell me about the [IPG: Image Processing Group/ MTG: Music Technology Group](group), I'd like to know more.
+    - What kind of technologies does the [IPG: Image Processing Group/ MTG: Music Technology Group](group) specialize in?
+    - I'm curious about the [IPG: Image Processing Group/ MTG: Music Technology Group](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - What kind of technologies does the [IPG: Image Processing Group/ MTG: Music Technology Group](group) specialize in?
+    - Can you provide me with information about the [TALN: Natural Language Processing](group)?
+    - I'm curious about the [TALN: Natural Language Processing](group), could you share some information with me?
+    - I'm curious about the [TALN: Natural Language Processing](group), could you share some information with me?
+    - I'm curious about the [TALN: Natural Language Processing](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - I want to know more about the [TALN: Natural Language Processing](group)'s research methods and approaches, could you provide me with that information?
+    - Could you provide me with some details on the [TALN: Natural Language Processing](group)?
+    - I'm looking for details on the [TALN: Natural Language Processing](group), could you assist me with that?
+    - Can you tell me about the projects that the [TALN: Natural Language Processing](group) is currently working on?
+    - I want to learn about the [TALN: Natural Language Processing](group), could you provide me with some background information?
+    - What is the goal of the [TALN: Natural Language Processing](group)?
+    - Could you tell me about the members of the [TALN: Natural Language Processing](group)?
+    - What kind of technologies does the [TALN: Natural Language Processing](group) specialize in?
+    - I want to learn about the [TALN: Natural Language Processing](group), could you provide me with some background information?
+    - Can you tell me about the impact of the [TALN: Natural Language Processing](group)'s research on the field?
+    - Can you tell me about the mission statement of the [TALN: Natural Language Processing](group)?
+    - I'm interested in knowing more about the [Physense: Sensing in Physiology and Biomedicine Group](group), can you help me with that?
+    - Please provide me with some information on the publications that have been authored by members of the [Physense: Sensing in Physiology and Biomedicine Group](group).
+    - I'm curious about the [Physense: Sensing in Physiology and Biomedicine Group](group), could you share some information with me?
+    - What do you know about the [Physense: Sensing in Physiology and Biomedicine Group](group)? Can you share that with me?
+    - Could you tell me about the tools and resources that the [Physense: Sensing in Physiology and Biomedicine Group](group) uses?
+    - Could you provide me with some information on the achievements of the [Physense: Sensing in Physiology and Biomedicine Group](group)?
+    - Could you tell me about the research focus of the [Physense: Sensing in Physiology and Biomedicine Group](group)?
+    - Could you tell me about the research focus of the [Physense: Sensing in Physiology and Biomedicine Group](group)?
+    - I'm interested in learning about the [Physense: Sensing in Physiology and Biomedicine Group](group), can you help me with that?
+    - Please tell me about the projects that the [Physense: Sensing in Physiology and Biomedicine Group](group) has completed in the past.
+    - I want to know more about the [Physense: Sensing in Physiology and Biomedicine Group](group)'s research methods and approaches, could you provide me with that information?
+    - Can you tell me about the impact of the [Physense: Sensing in Physiology and Biomedicine Group](group)'s research on the field?
+    - What do you know about the [Physense: Sensing in Physiology and Biomedicine Group](group)? Can you share that with me?
+    - What can you tell me about the [Physense: Sensing in Physiology and Biomedicine Group](group)?
+    - I'm interested in learning about the [Physense: Sensing in Physiology and Biomedicine Group](group), can you help me with that?
+    - What is the goal of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - Could you provide me with some information on the achievements of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - Could you give me some information on the history of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - What kind of work does the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group) do?
+    - What is the goal of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - Could you tell me about the members of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - What can you tell me about the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - What kind of work does the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group) do?
+    - Can you give me an overview of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group), please?
+    - Could you provide me with some details on the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - I want to learn about the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group), could you provide me with some background information?
+    - I want to learn about the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group), could you provide me with some background information?
+    - I'm curious about the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Could you provide me with some information on the achievements of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - Can you tell me about the mission statement of the [UGA TIC- Recruitment , Docorate & International ETIC Coordinator](group)?
+    - I want to know more about the [UGA TIC- Recruitment , Doctorate & International ETIC](group)'s research methods and approaches, could you provide me with that information?
+    - Can you provide me with information about the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - Could you give me some information on the history of the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - What can you tell me about the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - Could you tell me about the research focus of the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - I want to learn about the [UGA TIC- Recruitment , Doctorate & International ETIC](group), could you provide me with some background information?
+    - I'm interested in knowing more about the [UGA TIC- Recruitment , Doctorate & International ETIC](group), can you help me with that?
+    - Please tell me about the [UGA TIC- Recruitment , Doctorate & International ETIC](group), I'd like to know more.
+    - I'm curious about the [UGA TIC- Recruitment , Doctorate & International ETIC](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Could you tell me about the members of the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - Can you provide me with information about the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - Could you provide me with some information on the achievements of the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - I'm looking for details on the [UGA TIC- Recruitment , Doctorate & International ETIC](group), could you assist me with that?
+    - Could you tell me about the members of the [UGA TIC- Recruitment , Doctorate & International ETIC](group)?
+    - I'm interested in learning about the [UGA TIC- Recruitment , Doctorate & International ETIC](group), can you help me with that?
+    - I'm interested in knowing more about the [IP4EC Image processing for enhanced cinematography](group), can you help me with that?
+    - Could you provide me with some details on the [IP4EC Image processing for enhanced cinematography](group)?
+    - Could you provide me with some information on the achievements of the [IP4EC Image processing for enhanced cinematography](group)?
+    - I'm curious about the [IP4EC Image processing for enhanced cinematography](group), could you tell me more about them?
+    - Could you give me some information on the history of the [IP4EC Image processing for enhanced cinematography](group)?
+    - Can you give me an overview of the [IP4EC Image processing for enhanced cinematography](group), please?
+    - Could you tell me about the tools and resources that the [IP4EC Image processing for enhanced cinematography](group) uses?
+    - What do you know about the [IP4EC Image processing for enhanced cinematography](group)? Can you share that with me?
+    - Please tell me about the [IP4EC Image processing for enhanced cinematography](group), I'd like to know more.
+    - I'm interested in knowing more about the [IP4EC Image processing for enhanced cinematography](group), can you help me with that?
+    - I'm curious about the [IP4EC Image processing for enhanced cinematography](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - I'd like to learn more about the [IP4EC Image processing for enhanced cinematography](group), could you provide me with some information?
+    - What can you tell me about the [IP4EC Image processing for enhanced cinematography](group)?
+    - Can you provide me with information about the [IP4EC Image processing for enhanced cinematography](group)?
+    - Could you tell me about the research focus of the [IP4EC Image processing for enhanced cinematography](group)?
+    - Can you provide me with information about the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group)?
+    - Please tell me about the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), I'd like to know more.
+    - Could you tell me about the research focus of the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group)?
+    - Could you tell me about the tools and resources that the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group) uses?
+    - Can you give me an overview of the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), please?
+    - What kind of technologies does the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group) specialize in?
+    - What kind of work does the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group) do?
+    - Please tell me about the projects that the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group) has completed in the past.
+    - I'm looking for details on the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), could you assist me with that?
+    - I want to know more about the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group)'s research methods and approaches, could you provide me with that information?
+    - Can you give me an overview of the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), please?
+    - I want to know more about the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group)'s research methods and approaches, could you provide me with that information?
+    - Please provide me with some information on the publications that have been authored by members of the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group).
+    - I'm looking for details on the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), could you assist me with that?
+    - Please tell me about the [CMTECH: Cognitive Media Technologies Group /MTG: Music Technology Group](group), I'd like to know more.
+    - What can you tell me about the [IPG: Image Processing Group /MTG: Music Technology Group](group)?
+    - Can you give me an overview of the [IPG: Image Processing Group /MTG: Music Technology Group](group), please?
+    - I'm curious about the [IPG: Image Processing Group /MTG: Music Technology Group](group)'s collaborations with other groups or organizations, could you tell me about those?
+    - Could you tell me about the research focus of the [IPG: Image Processing Group /MTG: Music Technology Group](group)?
+    - What do you know about the [IPG: Image Processing Group /MTG: Music Technology Group](group)? Can you share that with me?
+    - Please provide me with some information on the publications that have been authored by members of the [IPG: Image Processing Group /MTG: Music Technology Group](group).
+    - I'd like to know more about the [IPG: Image Processing Group /MTG: Music Technology Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - Can you provide me with information about the [IPG: Image Processing Group /MTG: Music Technology Group](group)?
+    - I'm interested in knowing more about the [IPG: Image Processing Group /MTG: Music Technology Group](group), can you help me with that?
+    - Can you provide me with some insights into the research conducted by the [IPG: Image Processing Group /MTG: Music Technology Group](group)?
+    - What can you tell me about the [IPG: Image Processing Group /MTG: Music Technology Group](group)?
+    - Please tell me about the projects that the [IPG: Image Processing Group /MTG: Music Technology Group](group) has completed in the past.
+    - Can you give me an overview of the [IPG: Image Processing Group /MTG: Music Technology Group](group), please?
+    - I want to learn about the [IPG: Image Processing Group /MTG: Music Technology Group](group), could you provide me with some background information?
+    - What kind of technologies does the [IPG: Image Processing Group /MTG: Music Technology Group](group) specialize in?
+    - I want to learn about the [TIDE: Interactive & Distributed Technologies for Education](group), could you provide me with some background information?
+    - What do you know about the [TIDE: Interactive & Distributed Technologies for Education](group)? Can you share that with me?
+    - I'm curious about the [TIDE: Interactive & Distributed Technologies for Education](group), could you tell me more about them?
+    - What do you know about the [TIDE: Interactive & Distributed Technologies for Education](group)? Can you share that with me?
+    - What do you know about the [TIDE: Interactive & Distributed Technologies for Education](group)? Can you share that with me?
+    - Can you provide me with information about the [TIDE: Interactive & Distributed Technologies for Education](group)?
+    - Can you provide me with information about the [TIDE: Interactive & Distributed Technologies for Education](group)?
+    - Can you give me an overview of the [TIDE: Interactive & Distributed Technologies for Education](group), please?
+    - I'd like to learn more about the [TIDE: Interactive & Distributed Technologies for Education](group), could you provide me with some information?
+    - Please tell me about the [TIDE: Interactive & Distributed Technologies for Education](group), I'd like to know more.
+    - I'd like to learn more about the [TIDE: Interactive & Distributed Technologies for Education](group), could you provide me with some information?
+    - Please provide me with some information on the publications that have been authored by members of the [TIDE: Interactive & Distributed Technologies for Education](group).
+    - Can you tell me about the impact of the [TIDE: Interactive & Distributed Technologies for Education](group)'s research on the field?
+    - Could you tell me about the tools and resources that the [TIDE: Interactive & Distributed Technologies for Education](group) uses?
+    - Can you provide me with information about the [TIDE: Interactive & Distributed Technologies for Education](group)?
+    - Can you tell me about the projects that the [TALN; Natural Language Processing](group) is currently working on?
+    - What is the goal of the [TALN; Natural Language Processing](group)?
+    - Please tell me about the [TALN; Natural Language Processing](group), I'd like to know more.
+    - Please tell me about the [TALN; Natural Language Processing](group), I'd like to know more.
+    - I'm looking for details on the [TALN; Natural Language Processing](group), could you assist me with that?
+    - Can you tell me about the impact of the [TALN; Natural Language Processing](group)'s research on the field?
+    - Could you provide me with some information on the achievements of the [TALN; Natural Language Processing](group)?
+    - I'm interested in knowing more about the [TALN; Natural Language Processing](group), can you help me with that?
+    - Could you provide me with some information on the achievements of the [TALN; Natural Language Processing](group)?
+    - Can you provide me with information about the [TALN; Natural Language Processing](group)?
+    - Please tell me about the projects that the [TALN; Natural Language Processing](group) has completed in the past.
+    - I'm interested in learning about the [TALN; Natural Language Processing](group), can you help me with that?
+    - What can you tell me about the [TALN; Natural Language Processing](group)?
+    - Can you provide me with information about the [TALN; Natural Language Processing](group)?
+    - Could you tell me about the members of the [TALN; Natural Language Processing](group)?
+    - Could you tell me about the members of the [UGA TIC: Research, Promotion & Activities](group)?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities](group), could you provide me with some background information?
+    - Could you tell me about the tools and resources that the [UGA TIC: Research, Promotion & Activities](group) uses?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities](group), could you provide me with some background information?
+    - What do you know about the [UGA TIC: Research, Promotion & Activities](group)? Can you share that with me?
+    - What do you know about the [UGA TIC: Research, Promotion & Activities](group)? Can you share that with me?
+    - Can you tell me about the mission statement of the [UGA TIC: Research, Promotion & Activities](group)?
+    - What is the goal of the [UGA TIC: Research, Promotion & Activities](group)?
+    - Can you provide me with information about the [UGA TIC: Research, Promotion & Activities](group)?
+    - Please tell me about the [UGA TIC: Research, Promotion & Activities](group), I'd like to know more.
+    - I'm interested in knowing more about the [UGA TIC: Research, Promotion & Activities](group), can you help me with that?
+    - Could you tell me about the members of the [UGA TIC: Research, Promotion & Activities](group)?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities](group), could you provide me with some background information?
+    - Please tell me about the [UGA TIC: Research, Promotion & Activities](group), I'd like to know more.
+    - I'm curious about the [UGA TIC: Research, Promotion & Activities](group), could you tell me more about them?
+    - I'm interested in knowing more about the [WN: Wireless Networking Group](group), can you help me with that?
+    - I'm interested in knowing more about the [WN: Wireless Networking Group](group), can you help me with that?
+    - Can you tell me about the impact of the [WN: Wireless Networking Group](group)'s research on the field?
+    - I want to learn about the [WN: Wireless Networking Group](group), could you provide me with some background information?
+    - I'd like to know more about the [WN: Wireless Networking Group](group)'s partnerships with industry and government, could you provide me with some details?
+    - What are some interesting facts about the [WN: Wireless Networking Group](group) that you can share?
+    - Can you give me an overview of the [WN: Wireless Networking Group](group), please?
+    - What do you know about the [WN: Wireless Networking Group](group)? Can you share that with me?
+    - Could you provide me with some details on the [WN: Wireless Networking Group](group)?
+    - I want to know more about the [WN: Wireless Networking Group](group)'s research methods and approaches, could you provide me with that information?
+    - I'm looking for details on the [WN: Wireless Networking Group](group), could you assist me with that?
+    - What can you tell me about the [WN: Wireless Networking Group](group)?
+    - What is the goal of the [WN: Wireless Networking Group](group)?
+    - I'd like to learn more about the [WN: Wireless Networking Group](group), could you provide me with some information?
+    - Can you tell me about the impact of the [WN: Wireless Networking Group](group)'s research on the field?
+    - Can you tell me about the impact of the [AI&ML: Artificial Intelligence and Machine Learning group](group)'s research on the field?
+    - I'm interested in knowing more about the [AI&ML: Artificial Intelligence and Machine Learning group](group), can you help me with that?
+    - I want to learn about the [AI&ML: Artificial Intelligence and Machine Learning group](group), could you provide me with some background information?
+    - Can you tell me about the projects that the [AI&ML: Artificial Intelligence and Machine Learning group](group) is currently working on?
+    - I'd like to know more about the [AI&ML: Artificial Intelligence and Machine Learning group](group)'s partnerships with industry and government, could you provide me with some details?
+    - Can you give me an overview of the [AI&ML: Artificial Intelligence and Machine Learning group](group), please?
+    - I'd like to know more about the [AI&ML: Artificial Intelligence and Machine Learning group](group)'s partnerships with industry and government, could you provide me with some details?
+    - Could you tell me about the research focus of the [AI&ML: Artificial Intelligence and Machine Learning group](group)?
+    - Could you tell me about the tools and resources that the [AI&ML: Artificial Intelligence and Machine Learning group](group) uses?
+    - Could you tell me about the research focus of the [AI&ML: Artificial Intelligence and Machine Learning group](group)?
+    - I'm interested in learning about the [AI&ML: Artificial Intelligence and Machine Learning group](group), can you help me with that?
+    - I'm interested in knowing more about the [AI&ML: Artificial Intelligence and Machine Learning group](group), can you help me with that?
+    - Can you tell me about the impact of the [AI&ML: Artificial Intelligence and Machine Learning group](group)'s research on the field?
+    - Please tell me about the [AI&ML: Artificial Intelligence and Machine Learning group](group), I'd like to know more.
+    - Can you tell me about the projects that the [AI&ML: Artificial Intelligence and Machine Learning group](group) is currently working on?
+    - I'm looking for details on the [UGA TIC Head of the Management and Administration  Unit](group), could you assist me with that?
+    - Can you provide me with some insights into the research conducted by the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - Can you provide me with some insights into the research conducted by the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - I'd like to know more about the [UGA TIC Head of the Management and Administration  Unit](group)'s partnerships with industry and government, could you provide me with some details?
+    - Could you tell me about the research focus of the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - Could you provide me with some details on the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - What kind of technologies does the [UGA TIC Head of the Management and Administration  Unit](group) specialize in?
+    - I'm interested in learning about the [UGA TIC Head of the Management and Administration  Unit](group), can you help me with that?
+    - Could you tell me about the members of the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - I'm curious about the [UGA TIC Head of the Management and Administration  Unit](group), could you tell me more about them?
+    - I'm curious about the [UGA TIC Head of the Management and Administration  Unit](group), could you tell me more about them?
+    - Can you tell me about the mission statement of the [UGA TIC Head of the Management and Administration  Unit](group)?
+    - I want to know more about the [UGA TIC Head of the Management and Administration  Unit](group)'s research methods and approaches, could you provide me with that information?
+    - Can you tell me about the impact of the [UGA TIC Head of the Management and Administration  Unit](group)'s research on the field?
+    - Please tell me about the [UGA TIC Head of the Management and Administration  Unit](group), I'd like to know more.
+    - Could you tell me about the research focus of the [UGA TIC: Research, Promotion & Activities Coordinator](group)?
+    - What can you tell me about the [UGA TIC: Research, Promotion & Activities Coordinator](group)?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities Coordinator](group), could you provide me with some background information?
+    - Could you tell me about the tools and resources that the [UGA TIC: Research, Promotion & Activities Coordinator](group) uses?
+    - I'd like to learn more about the [UGA TIC: Research, Promotion & Activities Coordinator](group), could you provide me with some information?
+    - I'm looking for details on the [UGA TIC: Research, Promotion & Activities Coordinator](group), could you assist me with that?
+    - I'm interested in knowing more about the [UGA TIC: Research, Promotion & Activities Coordinator](group), can you help me with that?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities Coordinator](group), could you provide me with some background information?
+    - Can you provide me with some insights into the research conducted by the [UGA TIC: Research, Promotion & Activities Coordinator](group)?
+    - I'd like to know more about the [UGA TIC: Research, Promotion & Activities Coordinator](group)'s partnerships with industry and government, could you provide me with some details?
+    - I'd like to know more about the [UGA TIC: Research, Promotion & Activities Coordinator](group)'s partnerships with industry and government, could you provide me with some details?
+    - Please tell me about the [UGA TIC: Research, Promotion & Activities Coordinator](group), I'd like to know more.
+    - Please provide me with some information on the publications that have been authored by members of the [UGA TIC: Research, Promotion & Activities Coordinator](group).
+    - I want to know more about the [UGA TIC: Research, Promotion & Activities Coordinator](group)'s research methods and approaches, could you provide me with that information?
+    - I want to learn about the [UGA TIC: Research, Promotion & Activities Coordinator](group), could you provide me with some background information?
 
 - intent: ask_room_address
   examples: |
-    - who is in [51110](room)?
-    - tell me something about [51110](room).
-    - who is in [52110](room)?
+    - Who owns office [51008](room) and what is their affiliation?
+    - Who is the owner of office [51008](room) and which department does it belong to?
+    - What can you tell me about the occupant of office [51008](room)?
+    - Could you tell me the name of the individual who has office [51008](room)?
+    - Could you tell me the name of the individual who has office [51008](room)?
+    - Who is in office [51008](room) and which lab or department do they belong to?
+    - I want to find out who has office [51008](room), can you provide me with that information?
+    - Who works in office [51008](room)?
+    - I'm curious about who has office [51008](room), could you provide me with that information?
+    - Who is in office [51008](room) and which lab or department do they belong to?
+    - Who is in office [51005](room) and which lab or department do they belong to?
+    - Who is in office [51005](room) and which lab or department do they belong to?
+    - Could you tell me the name of the individual who has office [51005](room)?
+    - Could you provide me with the name of the person who works in office [51005](room)?
+    - What is the name of the person who has office [51005](room)?
+    - I want to find out who has office [51005](room), can you provide me with that information?
+    - I'd like to know who is in office [51005](room), could you tell me?
+    - Could you provide me with the name of the person who works in office [51005](room) and which department it belongs to?
+    - Can you tell me who occupies office [51005](room)?
+    - Could you provide me with the name of the person who works in office [51005](room) and which department it belongs to?
+    - Please tell me who is in office [51107](room).
+    - I'm curious about who has office [51107](room), could you provide me with that information?
+    - Who is the owner of office [51107](room) and which department does it belong to?
+    - I want to find out who has office [51107](room) and the department or lab they are affiliated with.
+    - Who works in office [51107](room) and which department or lab do they belong to?
+    - I want to find out who has office [51107](room), can you provide me with that information?
+    - Could you provide me with the name of the person who works in office [51107](room)?
+    - What can you tell me about the occupant of office [51107](room)?
+    - Can you tell me who occupies office [51107](room) and which department they belong to?
+    - Could you provide me with the name of the person who works in office [51107](room) and which department it belongs to?
+    - Who is in office [51017](room) and which lab or department do they belong to?
+    - Could you provide me with the name of the person who works in office [51017](room) and which department it belongs to?
+    - Can you tell me which lab or department office [51017](room) belongs to and who occupies it?
+    - I'd like to know who the occupant of office [51017](room) is and the department or lab they belong to.
+    - I'm curious about who has office [51017](room), could you provide me with that information?
+    - I'm curious about who has office [51017](room), could you provide me with that information?
+    - I want to know who has office [51017](room) and which department it belongs to.
+    - Who is the owner of office [51017](room)?
+    - Can you tell me which lab or department office [51017](room) belongs to and who occupies it?
+    - What can you tell me about the occupant of office [51017](room)?
+    - I want to find out who has office [55408](room), can you provide me with that information?
+    - I'd like to know who the occupant of office [55408](room) is and the department or lab they belong to.
+    - Can you give me information on who occupies office [55408](room)?
+    - Could you provide me with the name of the person who works in office [55408](room) and which department it belongs to?
+    - Can you tell me who occupies office [55408](room)?
+    - I'd like to know who the occupant of office [55408](room) is, can you help me with that?
+    - I'd like to know who the occupant of office [55408](room) is, can you help me with that?
+    - I'm curious about who has office [55408](room) and their department or lab affiliation, could you tell me?
+    - Can you give me information on who occupies office [55408](room)?
+    - Who is the owner of office [55408](room) and which department does it belong to?
+    - What is the name of the person who has office [55205](room)?
+    - What is the name of the person who has office [55205](room)?
+    - Can you tell me who occupies office [55205](room) and which department they belong to?
+    - I want to find out who has office [55205](room) and the department or lab they are affiliated with.
+    - I want to know who has office [55205](room) and which department it belongs to.
+    - Who owns office [55205](room) and what is their affiliation?
+    - Who owns office [55205](room) and what is their affiliation?
+    - I want to find out who has office [55205](room) and the department or lab they are affiliated with.
+    - Can you tell me who occupies office [55205](room) and which department they belong to?
+    - Who is the person that works in office [55205](room)?
+    - Please tell me who is in office [55014](room).
+    - Who works in office [55014](room) and which department or lab do they belong to?
+    - I'd like to know who the occupant of office [55014](room) is and the department or lab they belong to.
+    - Who is the owner of office [55014](room)?
+    - Could you provide me with the name of the person who works in office [55014](room)?
+    - I'm trying to find out which person works in office [55014](room), could you help me with that?
+    - I'd like to know who is in office [55014](room), could you tell me?
+    - I'd like to know who the occupant of office [55014](room) is and the department or lab they belong to.
+    - Who is the owner of office [55014](room) and which department does it belong to?
+    - Can you give me information on who occupies office [55014](room)?
+    - I want to find out who has office [55221](room), can you provide me with that information?
+    - I'd like to know who the occupant of office [55221](room) is and the department or lab they belong to.
+    - I'm trying to find out which person works in office [55221](room), could you help me with that?
+    - I'm curious about who has office [55221](room) and their department or lab affiliation, could you tell me?
+    - What is the name of the person who has office [55221](room)?
+    - I want to know who has office [55221](room) and which department it belongs to.
+    - Can you tell me which lab or department office [55221](room) belongs to and who occupies it?
+    - Who works in office [55221](room) and which department or lab do they belong to?
+    - Could you tell me the name of the individual who has office [55221](room)?
+    - Who is in office [55221](room) and which lab or department do they belong to?
+    - I want to know who has office [55118](room) and which department it belongs to.
+    - I'd like to know who the occupant of office [55118](room) is and the department or lab they belong to.
+    - Please tell me who is in office [55118](room).
+    - I'm trying to find out who has the office [55118](room), could you help me with that?
+    - Who owns office [55118](room) and what is their affiliation?
+    - I'm trying to find out which person works in office [55118](room), could you help me with that?
+    - I'd like to know who the occupant of office [55118](room) is and the department or lab they belong to.
+    - Can you tell me which lab or department office [55118](room) belongs to and who occupies it?
+    - Can you give me the name of the individual who works in office [55118](room)?
+    - I'm trying to find out who has the office [55118](room), could you help me with that?
+    - I'm trying to find out who has the office [55020](room), could you help me with that?
+    - I'm curious about who has office [55020](room) and their department or lab affiliation, could you tell me?
+    - I'm trying to find out who has the office [55020](room), could you help me with that?
+    - What can you tell me about the occupant of office [55020](room)?
+    - Who works in office [55020](room) and which department or lab do they belong to?
+    - Could you provide me with the name of the person who works in office [55020](room) and which department it belongs to?
+    - Can you tell me which lab or department office [55020](room) belongs to and who occupies it?
+    - I want to find out who has office [55020](room) and the department or lab they are affiliated with.
+    - Who is the person that works in office [55020](room)?
+    - Who does office [55020](room) belong to?
+    - Can you tell me who occupies office [55223](room)?
+    - I'm trying to find out which person works in office [55223](room), could you help me with that?
+    - Who works in office [55223](room)?
+    - Can you tell me which lab or department office [55223](room) belongs to and who occupies it?
+    - I'm trying to find out which person works in office [55223](room), could you help me with that?
+    - I'm trying to find out which person works in office [55223](room), could you help me with that?
+    - Can you tell me which lab or department office [55223](room) belongs to and who occupies it?
+    - Could you tell me the name of the individual who has office [55223](room)?
+    - I'm trying to find out which person works in office [55223](room), could you help me with that?
+    - I want to find out who has office [55223](room) and the department or lab they are affiliated with.
+    - I'm trying to find out which person works in office [55221](room), could you help me with that?
+    - Please provide me with the name of the person who occupies office [55221](room) and which department or lab it belongs to.
+    - Can you tell me who occupies office [55221](room)?
+    - Who is the owner of office [55221](room)?
+    - Please provide me with the name of the person who occupies office [55221](room) and which department or lab it belongs to.
+    - Can you tell me who occupies office [55221](room)?
+    - Who is in office [55221](room) and which lab or department do they belong to?
+    - I want to find out who has office [55221](room), can you provide me with that information?
+    - What can you tell me about the occupant of office [55221](room)?
+    - I want to know who has office [55221](room) and which department it belongs to.
+    - Who is in office [55018](room) and which lab or department do they belong to?
+    - What is the name of the person who has office [55018](room)?
+    - I'm curious about who has office [55018](room), could you provide me with that information?
+    - Can you tell me who occupies office [55018](room) and which department they belong to?
+    - I want to find out who has office [55018](room), can you provide me with that information?
+    - I want to find out who has office [55018](room), can you provide me with that information?
+    - Can you give me the name of the individual who works in office [55018](room)?
+    - What is the name of the person who has office [55018](room)?
+    - Who works in office [55018](room) and which department or lab do they belong to?
+    - What can you tell me about the occupant of office [55018](room)?
+    - Who is the owner of office [55408](room) and which department does it belong to?
+    - Who owns office [55408](room) and what is their affiliation?
+    - Who is the owner of office [55408](room) and which department does it belong to?
+    - I'm trying to find out who has the office [55408](room), could you help me with that?
+    - Please tell me who is in office [55408](room).
+    - Who is in office [55408](room) and which lab or department do they belong to?
+    - Could you provide me with the name of the person who works in office [55408](room) and which department it belongs to?
+    - I'm trying to find out which person works in office [55408](room), could you help me with that?
+    - I'd like to know who the occupant of office [55408](room) is and the department or lab they belong to.
+    - I'm trying to find out which person works in office [55408](room), could you help me with that?
+    - Who is the owner of office [55206](room) and which department does it belong to?
+    - What is the name of the person who has office [55206](room)?
+    - I'd like to know who is in office [55206](room), could you tell me?
+    - Can you tell me who occupies office [55206](room) and which department they belong to?
+    - I'd like to know who is in office [55206](room), could you tell me?
+    - I'm trying to find out who has the office [55206](room), could you help me with that?
+    - I want to find out who has office [55206](room) and the department or lab they are affiliated with.
+    - Who works in office [55206](room) and which department or lab do they belong to?
+    - I'm curious about who has office [55206](room), could you provide me with that information?
+    - Can you tell me who occupies office [55206](room) and which department they belong to?
+    - I want to find out who has office [55223](room) and the department or lab they are affiliated with.
+    - Could you provide me with the name of the person who works in office [55223](room)?
+    - Please tell me who is in office [55223](room).
+    - Who is in office [55223](room) and which lab or department do they belong to?
+    - Can you tell me who occupies office [55223](room)?
+    - Could you provide me with the name of the person who works in office [55223](room)?
+    - I want to find out who has office [55223](room), can you provide me with that information?
+    - Could you tell me the name of the individual who has office [55223](room)?
+    - I'm curious about who has office [55223](room), could you provide me with that information?
+    - I want to find out who has office [55223](room) and the department or lab they are affiliated with.
+    - Please tell me who is in office [55208](room).
+    - Can you tell me who occupies office [55208](room)?
+    - I want to find out who has office [55208](room) and the department or lab they are affiliated with.
+    - I'd like to know who the occupant of office [55208](room) is, can you help me with that?
+    - I'm curious about who has office [55208](room), could you provide me with that information?
+    - Could you provide me with the name of the person who works in office [55208](room) and which department it belongs to?
+    - I'm curious about who has office [55208](room), could you provide me with that information?
+    - Can you give me the name of the individual who works in office [55208](room)?
+    - I'm trying to find out who has the office [55208](room), could you help me with that?
+    - I'd like to know who is in office [55208](room), could you tell me?
+    - I'm curious about who has office [55402](room), could you provide me with that information?
+    - I want to find out who has office [55402](room), can you provide me with that information?
+    - I'd like to know who is in office [55402](room), could you tell me?
+    - I'm curious about who has office [55402](room), could you provide me with that information?
+    - What can you tell me about the occupant of office [55402](room)?
+    - I'm curious about who has office [55402](room), could you provide me with that information?
+    - Who is the person that works in office [55402](room)?
+    - Could you tell me the name of the individual who has office [55402](room)?
+    - Can you tell me which lab or department office [55402](room) belongs to and who occupies it?
+    - Please tell me who is in office [55402](room).
+    - I want to find out who has office [55318](room), can you provide me with that information?
+    - I'm curious about who has office [55318](room), could you provide me with that information?
+    - I'm curious about who has office [55318](room) and their department or lab affiliation, could you tell me?
+    - Who is in office [55318](room) and which lab or department do they belong to?
+    - I'm curious about who has office [55318](room) and their department or lab affiliation, could you tell me?
+    - Could you tell me the name of the individual who has office [55318](room)?
+    - Please provide me with the name of the person who occupies office [55318](room) and which department or lab it belongs to.
+    - I'm curious about who has office [55318](room), could you provide me with that information?
+    - I'd like to know who is in office [55318](room), could you tell me?
+    - I want to find out who has office [55318](room) and the department or lab they are affiliated with.
+    - Could you provide me with the name of the person who works in office [55117](room) and which department it belongs to?
+    - Could you tell me the name of the individual who has office [55117](room)?
+    - Can you give me information on who occupies office [55117](room)?
+    - I'd like to know who is in office [55117](room), could you tell me?
+    - Who works in office [55117](room) and which department or lab do they belong to?
+    - Could you provide me with the name of the person who works in office [55117](room)?
+    - I'd like to know who is in office [55117](room), could you tell me?
+    - Who is the owner of office [55117](room)?
+    - Can you tell me which lab or department office [55117](room) belongs to and who occupies it?
+    - Who is the owner of office [55117](room) and which department does it belong to?
+
+- intent: chitchat
+  examples: |
+    - How do you like life on campus so far?
+    - Have you found any good places to study on campus?
+    - What do you think of the professors here?
+    - Are there any professors you would recommend?
+    - Have you had any trouble with homework or projects?
+    - Do you think the workload is manageable here?
+    - What's your favorite thing about this university?
+    - What do you think of the campus buildings and facilities?
+    - Have you had any issues with the courses offered here?
+    - Do you find the courses challenging enough?
+    - Have you joined any clubs or organizations on campus?
+    - How do you feel about the academic resources available on campus?
+    - Have you met any interesting people on campus?
+    - What's the most exciting thing that's happened to you since you got here?
+    - Are there any courses you're particularly excited to take?
+    - Have you found the coursework to be practical and relevant?
+    - What's the most challenging course you've taken so far?
+    - Have you had any trouble finding resources for your academic pursuits?
+    - Do you feel that the campus is safe and secure?
+    - Have you had any trouble with the administration or staff?
+    - Have you found the professors to be supportive and helpful?
+    - What are your thoughts on the research labs on campus?
+    - Have you had any issues with the course materials or textbooks?
+    - Do you feel that the campus community is inclusive and welcoming?
+    - What's your opinion on the campus dining options?
+    - Have you had any trouble navigating the campus and finding your way around?
+    - How do you feel about the extracurricular activities available on campus?
+    - Have you had any issues with the course scheduling or availability?
+    - Do you feel that the campus environment is conducive to learning and growth?
+    - What's your take on the campus culture and student life?
+    - I love hanging out with my friends in the student lounge.
+    - The library here is a great place to study and get work done.
+    - I'm really enjoying my major so far, it's been very interesting.
+    - The professors here are really knowledgeable and passionate about their subjects.
+    - It's been great meeting people from all over the world at this university.
+    - I've had some challenging assignments, but I feel like I'm learning a lot.
+    - I've been exploring the campus and finding some really cool spots.
+    - The lab I work in is doing some really exciting research.
+    - The campus buildings and facilities are really modern and well-maintained.
+    - I'm looking forward to getting involved in some of the clubs and organizations here.
+    - Sometimes the course materials can be a bit dry, but overall I'm enjoying my classes.
+    - The campus is really lively and there's always something going on.
+    - I appreciate how accessible the professors are and how willing they are to help.
+    - The campus is surrounded by some beautiful scenery, it's really inspiring.
+    - There are a lot of great resources available to help with coursework and projects.
+    - I've had some minor issues with the course scheduling, but nothing too major.
+    - I'm really impressed with the diversity and inclusivity of the campus community.
+    - The campus security is really top-notch, I feel safe and secure here.
+    - I'm excited to see what opportunities for research and internships will come up.
+    - The student center is a great place to grab a bite to eat and catch up with friends.
+    - Sometimes the workload can be a bit overwhelming, but I feel like it's preparing me well.
+    - I appreciate the various study spaces available on campus, it makes it easy to find a spot to work.
+    - The campus is really well-connected and it's easy to get around using public transportation.
+    - The campus events and activities are really well-planned and a lot of fun.
+    - I've had some great conversations with professors and fellow students in my classes.
+    - The facilities for sports and fitness are really impressive, I'm looking forward to using them.
+    - I'm glad that the university emphasizes community service and volunteer work.
+    - The campus is located in a really vibrant and interesting part of the city.
+    - I appreciate the support and guidance I've received from my academic advisor so far.
+    - Hi, how are you doing?
+    - What's your name?
+    - Are you a student here?
+    - What's your favorite thing about this university?
+    - Do you have any advice for a new student like me?
+    - How do you spend your free time on campus?
+    - Have you ever had any trouble finding your way around the campus?
+    - Do you have any favorite places to eat on campus?
+    - What do you think about the academic programs offered here?
+    - Have you ever struggled with a particular subject or course?
+    - What do you think about the dorms?
+    - How do you like the professors here?
+    - Have you ever participated in any extracurricular activities on campus?
+    - What's the best way to make friends on campus?
+    - Do you have any tips for staying motivated during midterms or finals?
+    - How do you stay organized with all the coursework and activities?
+    - What's your favorite study spot on campus?
+    - Do you have any favorite professors or instructors?
+    - Have you ever been to any of the departmental events or meetings?
+    - What's your opinion on the quality of the labs and facilities?
+    - Have you ever been involved in any research projects on campus?
+    - What's the most challenging project or assignment you've worked on?
+    - Have you ever traveled abroad through the university's programs?
+    - What's the best thing about living in the dorms?
+    - Have you ever had any issues with roommates or dorm policies?
+    - What's your opinion on the campus security and safety measures?
+    - What's your opinion on the university's commitment to sustainability?
+    - Have you ever visited the campus gym or fitness center?
+    - What's the most interesting event or activity you've attended on campus?
+    - Have you ever taken advantage of any of the university's support services, like tutoring or counseling?
+    - What's your major?
+    - Do you have any favorite classes or professors in your department?
+    - Have you ever participated in any research or internships related to your major?
+    - What's the best way to get involved in student government or leadership positions?
+    - Do you have any tips for finding a good balance between school and work?
+    - What do you think about the job prospects for graduates of this university?
+    - Have you ever attended any career fairs or networking events on campus?
+    - What's the best way to approach a professor for a letter of recommendation?
+    - How do you handle stress and anxiety during the school year?
+    - Have you ever taken any online courses or distance learning programs offered by the university?
+    - What's your opinion on the university's diversity and inclusion initiatives?
+    - What's your favorite thing about the city or town that the university is located in?
+    - Have you ever been involved in any community service or volunteer projects through the university?
+    - What's the most memorable thing that's happened to you on campus so far?
+    - Have you ever studied abroad or participated in any international programs through the university?
+    - What's your opinion on the university's housing policies and procedures?
+    - Have you ever encountered any problems with the university's technology or IT systems?
+    - What do you think about the library and its resources?
+    - Have you ever had to deal with any academic dishonesty issues?
+    - How do you think the university could improve its student life offerings?
+    - Do you have any favorite local restaurants or coffee shops?
+    - What's the best way to make connections with alumni of the university?
+    - Have you ever attended any cultural or diversity events on campus?
+    - What's your opinion on the university's athletics programs?
+    - Have you ever been involved in any clubs or organizations related to your interests?
+    - What's the most interesting class or subject you've taken so far?
+    - What's the best way to prepare for a job interview or internship application?
+    - Have you ever taken advantage of any of the university's mental health resources or services?
+    - What do you think about the university's policies on student activism and protests?
+    - Have you ever had to deal with any roommate conflicts or housing issues?
+    - What do you think about the university's policy on alcohol and drug use?
+    - Have you ever participated in any hackathons or coding competitions on campus?
+    - What's your opinion on the university's career counseling and job placement services?
+    - Have you ever had to deal with any academic advising issues?
+    - What's the best way to find a mentor or advisor in your field of study?
+    - Have you ever taken any summer courses or programs offered by the university?
+    - What's the best way to get involved in campus media or journalism organizations?
+    - What's your opinion on the university's policies on free speech and expression?
+    - Have you ever been involved in any activism or advocacy work on campus?
+    - How do you think the university could improve its sustainability efforts?
+    - What's your opinion on the university's policies on sexual assault and harassment?
+    - Have you ever been involved in any theater or performing arts groups on campus?
+    - What's your favorite thing about the university's campus?
+    - Have you ever encountered any problems with the university's parking or transportation systems?
+    - What's the best way to stay motivated and focused during long study sessions?
+    - Have you ever had to deal with any academic or personal emergencies while on campus?
+    - What do you think about the university's policies on academic freedom?
+    - 

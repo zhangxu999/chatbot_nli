@@ -20,3 +20,17 @@ rules:
   steps:
   - intent: ask_staff
   - action: action_ask_name
+- rule: answer group
+  steps:
+  - intent: ask_group
+  - action: action_ask_group
+
+- rule: answer office
+  steps:
+  - intent: ask_room_address
+  - action: action_ask_room
+
+- rule: answerchitchat
+  steps:
+  - intent: chitchat
+  - action: action_chitchat

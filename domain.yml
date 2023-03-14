@@ -6,6 +6,7 @@ intents:
 - ask_staff
 - ask_group
 - ask_room_address
+- chitchat
 slots:
   name:
     type: text
@@ -45,6 +46,7 @@ actions:
   - action_ask_name
   - action_ask_group
   - action_ask_room
+  - action_chitchat
 #forms:
 #  newsletter_form:
 #    required_slots:
