@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 import pandas as pd
 from transformers import AutoTokenizer, BlenderbotSmallForConditionalGeneration
-
+from Levenshtein import distance
 from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -23,10 +23,11 @@ entity_df = pd.read_excel("../project/listado.xlsx")
 entity_df = entity_df[pd.notnull(entity_df['name'])]
 entity_df['name'] = entity_df['name'].apply(lambda x:x.lower().strip())
 def split_name(full_name):
-    names = full_name.replace(',',' ').split()
+    full_names = full_name.replace(',',' ').replace('   ',' ').replace('  ',' ').strip()
+    names = full_name.split()
     names = [n.strip() for n in names]
     names = [n.strip('') for n in names if n not in ['',',']]
-    return names
+    return names + [full_names]
 entity_df['full_name'] = entity_df['name'].apply(split_name)
 
 def group_pre(group):
@@ -36,7 +37,7 @@ entity_df['group'] =entity_df['group'].apply(group_pre)
 entity_df['office'] =entity_df['office'].apply(lambda x:str(x))
 
 
-names = [name.lower() for name in entity_df['name'].unique().tolist()]
+full_names = set([s for l in entity_df['full_name'].tolist()  for s in l])
 groups = [g.lower() for g in entity_df['group'].unique().tolist()]
 embed_entities =  groups
 
@@ -73,18 +74,31 @@ class ActionAskName(Action):
         for entity in entities:
             if entity['entity'] == 'name':
                 value = entity['value'].lower()
-                break
-        name = None
+                if value in full_names:
+                    break
+        if value is None:
+            response = f"I do not find any people's name  in the question, sorry."
+            dispatcher.utter_message(text=response)
+            return []
+
+        name,match = None,True
         for i,row in  entity_df.iterrows():
             for n in row['full_name']:
                 if value == n:
                     name,group,office = row['name'],row['group'],row['office']
                     break
-        if name:
-            response = f" the staff you are looking for is {name}, \
-            a member of {group}, the office number is {office}"
-        else:
-            response = f'I do not find {value} in the lab.'
+        if name is None:
+            match = False
+            answers = sorted([(name,distance(value,name)) for name in full_names],key=lambda x:x[1])
+            print(value, answers[:10])
+            value,d = answers[0]
+            for i,row in  entity_df.iterrows():
+                for n in row['full_name']:
+                    if value == n:
+                        name,group,office = row['name'],row['group'],row['office']
+                        break
+
+        response = f"{' ' if match else 'Maybe'} the staff you are looking for is {name}, a member of {group}, the office number is {office}."            
         dispatcher.utter_message(text=response)
         return []
 
@@ -106,14 +120,21 @@ class ActionAskGroup(Action):
     ) -> List[Dict]:
         print("-------------in group")
         entities = tracker.latest_message['entities']
+        value = None
         for entity in entities:
             if entity['entity'] == 'group':
                 value = entity['value']
-                search_words = [value]
                 print(search_words)
                 break
+        if value is None:
+            response = f" I am sorry I don't know  which group you are looking for"
+            dispatcher.utter_message(text=response)
 
-        search_embedding = model.encode(search_words)
+            return []
+
+
+
+        search_embedding = model.encode([value])
         # 计算向量之间的余弦相似度
         similarity = cosine_similarity(search_embedding, embeddings)
         print(similarity.shape)
