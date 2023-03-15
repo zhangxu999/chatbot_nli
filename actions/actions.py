@@ -124,7 +124,6 @@ class ActionAskGroup(Action):
         for entity in entities:
             if entity['entity'] == 'group':
                 value = entity['value']
-                print(search_words)
                 break
         if value is None:
             response = f" I am sorry I don't know  which group you are looking for"
